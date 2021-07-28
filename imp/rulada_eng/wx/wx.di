@@ -31,7 +31,7 @@ public import wx.DC;
 public import wx.DND;
 public import wx.DataFormat;
 public import wx.DataObject;
-//public import wx.DbGrid;
+public import wx.DbGrid;
 public import wx.Defs;
 public import wx.Dialog;
 public import wx.DirDialog;

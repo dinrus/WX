@@ -1,15 +1,3 @@
-//-----------------------------------------------------------------------------
-// wxD - FrameManager.d
-// (C) 2006 David Gileadi
-//
-/// The wxAUI wrapper class.
-//
-// Written by David Gileadi <gileadis@gmail.com>
-// Licensed under the wxWidgets license, see LICENSE.txt for details.
-//
-// $Id: FrameManager.d,v 1.2 2007/11/27 08:19:20 afb Exp $
-//-----------------------------------------------------------------------------
-
 module wx.aui.FrameManager;
 
 public import wx.wx;
@@ -221,182 +209,130 @@ static extern (C) IntPtr wxFrameManagerEvent_Clone(IntPtr self);
 alias PaneInfo wxPaneInfo;
 public class PaneInfo : wxObject
 {
-    public this(IntPtr wxobj)
-    {
-      super(wxobj);
-    }
+    public this(IntPtr wxobj);
+    public this();
+    public this(PaneInfo c);
 
-    public this()
-    {
-      this(wxPaneInfo_ctor());
-    }
+    public bool IsOk();
+    public bool IsFixed();
+    public bool IsResizable() ;
+    public bool IsShown();
+    public bool IsFloating();
+    public bool IsDocked();
+    public bool IsToolbar() ;
+    public bool IsTopDockable() ;
+    public bool IsBottomDockable();
+    public bool IsLeftDockable() ;
+    public bool IsRightDockable();
+    public bool IsFloatable();
+    public bool IsMovable();
+    public bool HasCaption() ;
+    public bool HasGripper() ;
+    public bool HasBorder() ;
+    public bool HasCloseButton() ;
+    public bool HasMaximizeButton() ;
+    public bool HasMinimizeButton() ;
+    public bool HasPinButton() ;
 
-    public this(PaneInfo c)
-    {
-        this();
-        wxPaneInfo_Copy(wxobj, c.wxobj);
-    }
+    public PaneInfo Window(wxWindow w) ;
+    public PaneInfo Name(char[] n) ;
+    public PaneInfo Caption(char[] c);
+    public PaneInfo Left();
+    public PaneInfo Right() ;
+    public PaneInfo Top();
+    public PaneInfo Bottom();
+    public PaneInfo Center();
+    public PaneInfo Centre() ;
+    public PaneInfo Direction(int direction) ;
+    public PaneInfo Layer(int layer) ;
+    public PaneInfo Row(int row) ;
+    public PaneInfo Position(int pos);
+    public PaneInfo BestSize(ref Size size);
+    public PaneInfo MinSize(ref Size size) ;
+    public PaneInfo MaxSize(ref Size size) ;
+    public PaneInfo BestSize(int x, int y) ;
+    public PaneInfo MinSize(int x, int y);
+    public PaneInfo MaxSize(int x, int y) ;
+    public PaneInfo FloatingPosition(ref Point pos);
+    public PaneInfo FloatingPosition(int x, int y) ;
+    public PaneInfo FloatingSize(ref Size size);
+    public PaneInfo FloatingSize(int x, int y);
+    public PaneInfo Fixed();
+    public PaneInfo Resizable(bool resizable = true) ;
+    public PaneInfo Dock() ;
+    public PaneInfo Float();
+    public PaneInfo Hide();
+    public PaneInfo Show(bool show = true) ;
+    public PaneInfo CaptionVisible(bool visible = true) ;
+    public PaneInfo PaneBorder(bool visible = true) ;
+    public PaneInfo Gripper(bool visible = true);
+    public PaneInfo CloseButton(bool visible = true);
+    public PaneInfo MaximizeButton(bool visible = true) ;
+    public PaneInfo MinimizeButton(bool visible = true);
+    public PaneInfo PinButton(bool visible = true);
+    public PaneInfo DestroyOnClose(bool b = true);
+    public PaneInfo TopDockable(bool b = true);
+    public PaneInfo BottomDockable(bool b = true);
+    public PaneInfo LeftDockable(bool b = true);
+    public PaneInfo RightDockable(bool b = true) ;
+    public PaneInfo Floatable(bool b = true) ;
+    public PaneInfo Movable(bool b = true) ;
+    public PaneInfo Dockable(bool b = true) ;
+    public PaneInfo DefaultPane() ;
+    public PaneInfo CentrePane() ;
+    public PaneInfo CenterPane() ;
+    public PaneInfo ToolbarPane() ;
+    public PaneInfo SetFlag(uint flag, bool option_state) ;
+    public bool HasFlag(uint flag) ;
 
-    public bool IsOk() { return wxPaneInfo_IsOk(wxobj); }
-    public bool IsFixed() { return wxPaneInfo_IsFixed(wxobj); }
-    public bool IsResizable() { return wxPaneInfo_IsResizable(wxobj); }
-    public bool IsShown() { return wxPaneInfo_IsShown(wxobj); }
-    public bool IsFloating() { return wxPaneInfo_IsFloating(wxobj); }
-    public bool IsDocked() { return wxPaneInfo_IsDocked(wxobj); }
-    public bool IsToolbar() { return wxPaneInfo_IsToolbar(wxobj); }
-    public bool IsTopDockable() { return wxPaneInfo_IsTopDockable(wxobj); }
-    public bool IsBottomDockable() { return wxPaneInfo_IsBottomDockable(wxobj); }
-    public bool IsLeftDockable() { return wxPaneInfo_IsLeftDockable(wxobj); }
-    public bool IsRightDockable() { return wxPaneInfo_IsRightDockable(wxobj); }
-    public bool IsFloatable() { return wxPaneInfo_IsFloatable(wxobj); }
-    public bool IsMovable() { return wxPaneInfo_IsMovable(wxobj); }
-    public bool HasCaption() { return wxPaneInfo_HasCaption(wxobj); }
-    public bool HasGripper() { return wxPaneInfo_HasGripper(wxobj); }
-    public bool HasBorder() { return wxPaneInfo_HasBorder(wxobj); }
-    public bool HasCloseButton() { return wxPaneInfo_HasCloseButton(wxobj); }
-    public bool HasMaximizeButton() { return wxPaneInfo_HasMaximizeButton(wxobj); }
-    public bool HasMinimizeButton() { return wxPaneInfo_HasMinimizeButton(wxobj); }
-    public bool HasPinButton() { return wxPaneInfo_HasPinButton(wxobj); }
+    public char[] name();
+    public char[] caption() ;
 
-    public PaneInfo Window(wxWindow w) { return cast(PaneInfo) FindObject(wxPaneInfo_Window(wxobj, wxObject.SafePtr(w))); }
-    public PaneInfo Name(char[] n) { return cast(PaneInfo) FindObject(wxPaneInfo_Name(wxobj, n)); }
-    public PaneInfo Caption(char[] c) { return cast(PaneInfo) FindObject(wxPaneInfo_Caption(wxobj, c)); }
-    public PaneInfo Left() { return cast(PaneInfo) FindObject(wxPaneInfo_Left(wxobj)); }
-    public PaneInfo Right() { return cast(PaneInfo) FindObject(wxPaneInfo_Right(wxobj)); }
-    public PaneInfo Top() { return cast(PaneInfo) FindObject(wxPaneInfo_Top(wxobj)); }
-    public PaneInfo Bottom() { return cast(PaneInfo) FindObject(wxPaneInfo_Bottom(wxobj)); }
-    public PaneInfo Center() { return cast(PaneInfo) FindObject(wxPaneInfo_Center(wxobj)); }
-    public PaneInfo Centre() { return cast(PaneInfo) FindObject(wxPaneInfo_Centre(wxobj)); }
-    public PaneInfo Direction(int direction) { return cast(PaneInfo) FindObject(wxPaneInfo_Direction(wxobj, direction)); }
-    public PaneInfo Layer(int layer) { return cast(PaneInfo) FindObject(wxPaneInfo_Layer(wxobj, layer)); }
-    public PaneInfo Row(int row) { return cast(PaneInfo) FindObject(wxPaneInfo_Row(wxobj, row)); }
-    public PaneInfo Position(int pos) { return cast(PaneInfo) FindObject(wxPaneInfo_Position(wxobj, pos)); }
-    public PaneInfo BestSize(ref Size size) { return cast(PaneInfo) FindObject(wxPaneInfo_BestSize(wxobj, size)); }
-    public PaneInfo MinSize(ref Size size) { return cast(PaneInfo) FindObject(wxPaneInfo_MinSize(wxobj, size)); }
-    public PaneInfo MaxSize(ref Size size) { return cast(PaneInfo) FindObject(wxPaneInfo_MaxSize(wxobj, size)); }
-    public PaneInfo BestSize(int x, int y) { return cast(PaneInfo) FindObject(wxPaneInfo_BestSizeXY(wxobj, x, y)); }
-    public PaneInfo MinSize(int x, int y) { return cast(PaneInfo) FindObject(wxPaneInfo_MinSizeXY(wxobj, x, y)); }
-    public PaneInfo MaxSize(int x, int y) { return cast(PaneInfo) FindObject(wxPaneInfo_MaxSizeXY(wxobj, x, y)); }
-    public PaneInfo FloatingPosition(ref Point pos) { return cast(PaneInfo) FindObject(wxPaneInfo_FloatingPosition(wxobj, pos)); }
-    public PaneInfo FloatingPosition(int x, int y) { return cast(PaneInfo) FindObject(wxPaneInfo_FloatingPositionXY(wxobj, x, y)); }
-    public PaneInfo FloatingSize(ref Size size) { return cast(PaneInfo) FindObject(wxPaneInfo_FloatingSize(wxobj, size)); }
-    public PaneInfo FloatingSize(int x, int y) { return cast(PaneInfo) FindObject(wxPaneInfo_FloatingSizeXY(wxobj, x, y)); }
-    public PaneInfo Fixed() { return cast(PaneInfo) FindObject(wxPaneInfo_Fixed(wxobj)); }
-    public PaneInfo Resizable(bool resizable = true) { return cast(PaneInfo) FindObject(wxPaneInfo_Resizable(wxobj, resizable)); }
-    public PaneInfo Dock() { return cast(PaneInfo) FindObject(wxPaneInfo_Dock(wxobj)); }
-    public PaneInfo Float() { return cast(PaneInfo) FindObject(wxPaneInfo_Float(wxobj)); }
-    public PaneInfo Hide() { return cast(PaneInfo) FindObject(wxPaneInfo_Hide(wxobj)); }
-    public PaneInfo Show(bool show = true) { return cast(PaneInfo) FindObject(wxPaneInfo_Show(wxobj, show)); }
-    public PaneInfo CaptionVisible(bool visible = true) { return cast(PaneInfo) FindObject(wxPaneInfo_CaptionVisible(wxobj, visible)); }
-    public PaneInfo PaneBorder(bool visible = true) { return cast(PaneInfo) FindObject(wxPaneInfo_PaneBorder(wxobj, visible)); }
-    public PaneInfo Gripper(bool visible = true) { return cast(PaneInfo) FindObject(wxPaneInfo_Gripper(wxobj, visible)); }
-    public PaneInfo CloseButton(bool visible = true) { return cast(PaneInfo) FindObject(wxPaneInfo_CloseButton(wxobj, visible)); }
-    public PaneInfo MaximizeButton(bool visible = true) { return cast(PaneInfo) FindObject(wxPaneInfo_MaximizeButton(wxobj, visible)); }
-    public PaneInfo MinimizeButton(bool visible = true) { return cast(PaneInfo) FindObject(wxPaneInfo_MinimizeButton(wxobj, visible)); }
-    public PaneInfo PinButton(bool visible = true) { return cast(PaneInfo) FindObject(wxPaneInfo_PinButton(wxobj, visible)); }
-    public PaneInfo DestroyOnClose(bool b = true) { return cast(PaneInfo) FindObject(wxPaneInfo_DestroyOnClose(wxobj, b)); }
-    public PaneInfo TopDockable(bool b = true) { return cast(PaneInfo) FindObject(wxPaneInfo_TopDockable(wxobj, b)); }
-    public PaneInfo BottomDockable(bool b = true) { return cast(PaneInfo) FindObject(wxPaneInfo_BottomDockable(wxobj, b)); }
-    public PaneInfo LeftDockable(bool b = true) { return cast(PaneInfo) FindObject(wxPaneInfo_LeftDockable(wxobj, b)); }
-    public PaneInfo RightDockable(bool b = true) { return cast(PaneInfo) FindObject(wxPaneInfo_RightDockable(wxobj, b)); }
-    public PaneInfo Floatable(bool b = true) { return cast(PaneInfo) FindObject(wxPaneInfo_Floatable(wxobj, b)); }
-    public PaneInfo Movable(bool b = true) { return cast(PaneInfo) FindObject(wxPaneInfo_Movable(wxobj, b)); }
-    public PaneInfo Dockable(bool b = true) { return cast(PaneInfo) FindObject(wxPaneInfo_Dockable(wxobj, b)); }
-    public PaneInfo DefaultPane() { return cast(PaneInfo) FindObject(wxPaneInfo_DefaultPane(wxobj)); }
-    public PaneInfo CentrePane() { return cast(PaneInfo) FindObject(wxPaneInfo_CentrePane(wxobj)); }
-    public PaneInfo CenterPane() { return cast(PaneInfo) FindObject(wxPaneInfo_CenterPane(wxobj)); }
-    public PaneInfo ToolbarPane() { return cast(PaneInfo) FindObject(wxPaneInfo_ToolbarPane(wxobj)); }
-    public PaneInfo SetFlag(uint flag, bool option_state) { return cast(PaneInfo) FindObject(wxPaneInfo_SetFlag(wxobj, flag, option_state)); }
-    public bool HasFlag(uint flag) { return wxPaneInfo_HasFlag(wxobj, flag); }
+    public wxWindow window();
+    public wxWindow frame();
+    public uint state() ;
 
-    public char[] name() { return wxPaneInfo_GetName(wxobj); }
-    public char[] caption() { return wxPaneInfo_GetCaption(wxobj); }
+    public int dock_direction() ;
+    public int dock_layer() ;
+    public int dock_row();
+    public int dock_pos() ;
 
-    public wxWindow window()
-    {
-      IntPtr ptr = wxPaneInfo_GetWindow(wxobj);
-      wxObject o = FindObject(ptr);
-      return (o)? cast(wxWindow)o : new wxWindow(ptr);
-    }
-    public wxWindow frame()
-    {
-      IntPtr ptr = wxPaneInfo_GetFrame(wxobj);
-      wxObject o = FindObject(ptr);
-      return (o)? cast(wxWindow)o : new wxWindow(ptr);
-    }
-    public uint state() { return wxPaneInfo_GetState(wxobj); }
+    public Size best_size();
+    public Size min_size();
+    public Size max_size();
 
-    public int dock_direction() { return wxPaneInfo_GetDock_Direction(wxobj); }
-    public int dock_layer() { return wxPaneInfo_GetDock_Layer(wxobj); }
-    public int dock_row() { return wxPaneInfo_GetDock_Row(wxobj); }
-    public int dock_pos() { return wxPaneInfo_GetDock_Pos(wxobj); }
+    public Point floating_pos();
+    public Size floating_size();
+    public int dock_proportion() ;
 
-    public Size best_size()
-    {
-      Size size;
-      wxPaneInfo_GetBest_Size(wxobj, size);
-      return size;
-    }
-    public Size min_size()
-    {
-      Size size;
-      wxPaneInfo_GetMin_Size(wxobj, size);
-      return size;
-    }
-    public Size max_size()
-    {
-      Size size;
-      wxPaneInfo_GetMax_Size(wxobj, size);
-      return size;
-    }
-
-    public Point floating_pos()
-    {
-      Point point;
-      wxPaneInfo_GetFloating_Pos(wxobj, point);
-      return point;
-    }
-    public Size floating_size()
-    {
-      Size size;
-      wxPaneInfo_GetFloating_Size(wxobj, size);
-      return size;
-    }
-    public int dock_proportion() { return wxPaneInfo_GetDock_Proportion(wxobj); }
-
-    public Rectangle rect()
-    {
-      Rectangle rect;
-      wxPaneInfo_GetRect(wxobj, rect);
-      return rect;
-    }
+    public Rectangle rect();
 
     public enum wxPaneState
     {
-      optionFloating        = 1 << 0,
-      optionHidden          = 1 << 1,
-      optionLeftDockable    = 1 << 2,
-      optionRightDockable   = 1 << 3,
-      optionTopDockable     = 1 << 4,
-      optionBottomDockable  = 1 << 5,
-      optionFloatable       = 1 << 6,
-      optionMovable         = 1 << 7,
-      optionResizable       = 1 << 8,
-      optionPaneBorder      = 1 << 9,
-      optionCaption         = 1 << 10,
-      optionGripper         = 1 << 11,
-      optionDestroyOnClose  = 1 << 12,
-      optionToolbar         = 1 << 13,
-      optionActive          = 1 << 14,
+        optionFloating        = 1 << 0,
+        optionHidden          = 1 << 1,
+        optionLeftDockable    = 1 << 2,
+        optionRightDockable   = 1 << 3,
+        optionTopDockable     = 1 << 4,
+        optionBottomDockable  = 1 << 5,
+        optionFloatable       = 1 << 6,
+        optionMovable         = 1 << 7,
+        optionResizable       = 1 << 8,
+        optionPaneBorder      = 1 << 9,
+        optionCaption         = 1 << 10,
+        optionGripper         = 1 << 11,
+        optionDestroyOnClose  = 1 << 12,
+        optionToolbar         = 1 << 13,
+        optionActive          = 1 << 14,
 
-      buttonClose           = 1 << 24,
-      buttonMaximize        = 1 << 25,
-      buttonMinimize        = 1 << 26,
-      buttonPin             = 1 << 27,
-      buttonCustom1         = 1 << 28,
-      buttonCustom2         = 1 << 29,
-      buttonCustom3         = 1 << 30,
-      actionPane            = 1 << 31  // used internally
+        buttonClose           = 1 << 24,
+        buttonMaximize        = 1 << 25,
+        buttonMinimize        = 1 << 26,
+        buttonPin             = 1 << 27,
+        buttonCustom1         = 1 << 28,
+        buttonCustom2         = 1 << 29,
+        buttonCustom3         = 1 << 30,
+        actionPane            = 1 << 31  // used internally
     }
 }
 
@@ -405,142 +341,53 @@ public class PaneInfo : wxObject
 alias FrameManager wxFrameManager;
 public class FrameManager : EvtHandler
 {
-    public this(IntPtr wxobj)
-    {
-      super(wxobj);
-    }
-
-    public this(Frame frame = null, uint flags = wxFrameManagerOption.wxAUI_MGR_DEFAULT)
-    {
-      this(wxFrameManager_ctor(wxObject.SafePtr(frame), flags));
-    }
-
-    public void UnInit() { wxFrameManager_UnInit(wxobj); }
-
-    public void SetFlags(uint flags) { wxFrameManager_SetFlags(wxobj, flags); }
-    public uint GetFlags() { return wxFrameManager_GetFlags(wxobj); }
-
-    public void SetFrame(Frame frame) { wxFrameManager_SetFrame(wxobj, wxObject.SafePtr(frame)); }
-    public Frame GetFrame()
-    {
-      IntPtr ptr = wxFrameManager_GetFrame(wxobj);
-      wxObject o = FindObject(ptr);
-      if (o) return cast(Frame)o;
-      else return new Frame(ptr);
-    }
-
-    public void SetArtProvider(DockArt art_provider) { wxFrameManager_SetArtProvider(wxobj, wxObject.SafePtr(art_provider)); }
-    public DockArt GetArtProvider()
-    {
-      IntPtr ptr = wxFrameManager_GetArtProvider(wxobj);
-      wxObject o = FindObject(ptr);
-      if (o) return cast(DockArt)o;
-      else return new DockArt(ptr);
-    }
-
-    public PaneInfo GetPane(Window window)
-    {
-      IntPtr ptr = wxFrameManager_GetPaneByWindow(wxobj, wxObject.SafePtr(window));
-      wxObject o = FindObject(ptr);
-      if (o) return cast(PaneInfo)o;
-      else return new PaneInfo(ptr);
-    }
-    public PaneInfo GetPane(char[] name)
-    {
-      IntPtr ptr = wxFrameManager_GetPaneByName(wxobj, name);
-      wxObject o = FindObject(ptr);
-      if (o) return cast(PaneInfo)o;
-      else return new PaneInfo(ptr);
-    }
-    public int GetPaneCount() { return wxFrameManager_GetPaneCount(wxobj); }
-    public PaneInfo GetPane(int index)
-    {
-      IntPtr ptr = wxFrameManager_GetPane(wxobj, index);
-      wxObject o = FindObject(ptr);
-      if (o) return cast(PaneInfo)o;
-      else return new PaneInfo(ptr);
-    }
-
-    public bool AddPane(Window window, PaneInfo pane_info)
-    {
-      return wxFrameManager_AddPane(wxobj, wxObject.SafePtr(window), wxObject.SafePtr(pane_info));
-    }
-
+    public this(IntPtr wxobj);
+    public this(Frame frame = null, uint flags = wxFrameManagerOption.wxAUI_MGR_DEFAULT);
+    public void UnInit();
+    public void SetFlags(uint flags);
+    public uint GetFlags();
+    public void SetFrame(Frame frame) ;
+    public Frame GetFrame();
+    public void SetArtProvider(DockArt art_provider) ;
+    public DockArt GetArtProvider();
+    public PaneInfo GetPane(Window window);
+    public PaneInfo GetPane(char[] name);
+    public int GetPaneCount();
+    public PaneInfo GetPane(int index);
+    public bool AddPane(Window window, PaneInfo pane_info);
     public bool AddPane(Window window,
-                 int direction = Direction.wxLEFT,
-                 string caption = "")
-    {
-      return wxFrameManager_AddPane2(wxobj, wxObject.SafePtr(window), direction, caption);
-    }
-
+                        int direction = Direction.wxLEFT,
+                        string caption = "");
     public bool InsertPane(Window window,
-                 PaneInfo pane_info,
-                 int insert_level = wxPaneInsertLevel.wxAUI_INSERT_PANE)
-    {
-      return wxFrameManager_InsertPane(wxobj, wxObject.SafePtr(window), wxObject.SafePtr(pane_info), insert_level);
-    }
-
-    public bool DetachPane(Window window)
-    {
-      return wxFrameManager_DetachPane(wxobj, wxObject.SafePtr(window));
-    }
-
-    public char[] SavePerspective() { return wxFrameManager_SavePerspective(wxobj); }
-
+                           PaneInfo pane_info,
+                           int insert_level = wxPaneInsertLevel.wxAUI_INSERT_PANE);
+    public bool DetachPane(Window window);
+    public char[] SavePerspective() ;
     public bool LoadPerspective(char[] perspective,
-                 bool update = true)
-    {
-      return wxFrameManager_LoadPerspective(wxobj, perspective, update);
-    }
-
-    public void Update() { return wxFrameManager_Update(wxobj); }
-
+                                bool update = true);
+    public void Update() ;
 
 // wx event machinery
-
 
 // right now the only event that works is wxEVT_AUI_PANEBUTTON. A full
 // spectrum of events will be implemented in the next incremental version
 
     public static EventType wxEVT_AUI_PANEBUTTON;
 
-    static this()
-    {
-      wxEVT_AUI_PANEBUTTON = wxEvent_EVT_AUI_PANEBUTTON();
-    }
-
-    public void EVT_AUI_PANEBUTTON(EventListener lsnr)
-    {
-      AddEventListener(wxEVT_AUI_PANEBUTTON, lsnr);
-    }
+    static this();
+    public void EVT_AUI_PANEBUTTON(EventListener lsnr);
 }
-
-
 
 // event declarations/classes
 alias FrameManagerEvent wxFrameManagerEvent;
 public class FrameManagerEvent : Event
 {
-    public this(IntPtr wxobj)
-    {
-      super(wxobj);
-    }
-
-    public Event Clone()
-    {
-      return new FrameManagerEvent(wxFrameManagerEvent_Clone(wxobj));
-    }
-
-    public void SetPane(PaneInfo p) { wxFrameManagerEvent_SetPane(wxobj, wxObject.SafePtr(p)); }
-    public void SetButton(int b) { wxFrameManagerEvent_SetButton(wxobj, b); }
-    public PaneInfo GetPane()
-    {
-      IntPtr ptr = wxFrameManagerEvent_GetPane(wxobj);
-      wxObject o = FindObject(ptr);
-      if (o) return cast(PaneInfo)o;
-      else return new PaneInfo(ptr);
-    }
-    public int GetButton() { return wxFrameManagerEvent_GetButton(wxobj); }
+    public this(IntPtr wxobj);
+    public Event Clone();
+    public void SetPane(PaneInfo p);
+    public void SetButton(int b) ;
+    public PaneInfo GetPane();
+    public int GetButton() ;
 }
 
 

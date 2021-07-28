@@ -1,157 +1,97 @@
-/// Common structs that do not belong to any particular class
 module wx.common;
 
-/*! \mainpage
- *  <p><a href="http://wxd.sourceforge.net/"><b>wxD</b></a> is
- *  <a href="http://www.wxwidgets.org/">wxWidgets</a> bindings for the
- *  <a href="http://www.d-programming-language.org/">D programming language</a>.</p>
- */
+version = UNICODE;
 
-/*! \namespace wx::libs
- *  \brief This module gets set to a pragma(link) for version(build).
- *
- *  It also does a pragma(export_version), for platform and encoding.
- */
-
-//! \cond STD
-version (Tango)
-{
-public import tango.stdc.stddef;
-// "string" doesn't matter:
-const int version_major = 1;
-const int version_minor = 0;
-}
-else // Phobos
-{
-public import std.c; // wchar_t
-public import std.compiler; // version
-  version (D_Version2)
-  {
-static if (version_major >= 2 && version_minor >= 6)
-public import std.contracts; // DMD 2.006
-  }
-}
-//! \endcond
+public import std.c:
+wchar_t;
 
 interface IDisposable
 {
-	void Dispose();
+    void Dispose();
 }
 
 interface ICloneable
 {
-	Object Clone();
+    Object Clone();
 }
 
-
-	/// An implementation-specific type that is used to represent a pointer or a handle.
-	typedef void* IntPtr;
+/// An implementation-specific type that is used to represent a pointer or a handle.
+typedef void* IntPtr;
 
 version(UNICODE)
-	alias wchar_t wxChar;
+alias wchar_t wxChar;
 else //version(ANSI)
-	alias ubyte wxChar;
+    alias ubyte wxChar;
 
-//! \cond D1
-static if (version_major < 1 || (version_major == 1 && version_minor < 16))
-//! \endcond
-	static if (is(object.string)) { /*already added*/ } else
-	alias char[] string; // added in DMD 1.016 and DMD 2.000
-
-//! \cond D2
-static if (version_major < 2 || (version_major == 2 && version_minor < 6))
-//! \endcond
-	string assumeUnique(char[] s) { return s; } // DMD 2.006
+string assumeUnique(char[] s)
+{
+    return s;    // DMD 2.006
+}
 
 
 class NullPointerException : Exception
 {
-	this(string msg) { super(msg); }
+    this(string msg) ;
 }
 
 class NullReferenceException : Exception
 {
-	this(string msg) { super(msg); }
+    this(string msg) ;
 }
 
 class ArgumentException : Exception
 {
-	this(string msg) { super(msg); }
+    this(string msg);
 }
 
 class InvalidOperationException : Exception
 {
-	this(string msg) { super(msg); }
+    this(string msg);
 }
 
 class ArgumentNullException : Exception
 {
-	this(string msg) { super(msg); }
+    this(string msg) ;
 }
 
-
-//public import wx.Defs;
 public import wx.wxObject;
 public import wx.wxString;
-//public import wx.Log;
-//public import wx.Event;
-//public import wx.EvtHandler;
-//public import wx.App;
-//public import wx.Utils;
+
 
 alias Point wxPoint;
 struct Point
 {
-	int X,Y;
+    int X,Y;
 
-	/** struct constructor */
-	static Point opCall(int x,int y)
-	{
-	    Point pt;
-	    pt.X = x;
-	    pt.Y = y;
-	    return pt;
-	}
+    /** struct constructor */
+    static Point opCall(int x,int y);
 }
 
 alias Size wxSize;
 struct Size
 {
-	int Width,Height;
+    int Width,Height;
 
-	/** struct constructor */
-	static Size opCall(int w,int h) {
-	    Size sz;
-	    sz.Width = w;
-	    sz.Height = h;
-	    return sz;
-	}
+    /** struct constructor */
+    static Size opCall(int w,int h) ;
 }
 
 alias Rectangle wxRectangle;
 struct Rectangle
 {
-	int X,Y,Width,Height;
-	int  Left() { return X; }
-	void Left(int value) { X = value; }
-	int  Top() { return Y; }
-	void Top(int value) { Y = value; }
+    int X,Y,Width,Height;
+    int  Left();
+    void Left(int value);
+    int  Top();
+    void Top(int value) ;
 
-	int  Right() { return X + Width - 1; }
-	void Right(int value) { Width = value - X + 1; }
-	int  Bottom() { return Y + Height - 1; }
-	void Bottom(int value) { Height = value - Y + 1; }
+    int  Right() ;
+    void Right(int value);
+    int  Bottom();
+    void Bottom(int value);
 
-	/** struct constructor */
-	static Rectangle opCall(int x,int y,int w,int h)
-	{
-	    Rectangle rect;
-	    rect.X = x;
-	    rect.Y = y;
-	    rect.Width = w;
-	    rect.Height = h;
-	    return rect;
-	}
+    /** struct constructor */
+    static Rectangle opCall(int x,int y,int w,int h);
 }
 
 alias Rect wxRect;
@@ -160,19 +100,8 @@ alias Rectangle Rect;
 alias new_Rectangle new_Rect;
 
 
-deprecated Point new_Point(int x,int y)
-{
-	return Point(x,y);
-}
-
-deprecated Size new_Size(int w,int h)
-{
-	return Size(w,h);
-}
-
-deprecated Rectangle new_Rectangle(int x,int y,int w,int h)
-{
-	return Rectangle(x,y,w,h);
-}
+deprecated Point new_Point(int x,int y);
+deprecated Size new_Size(int w,int h);
+deprecated Rectangle new_Rectangle(int x,int y,int w,int h);
 
 
