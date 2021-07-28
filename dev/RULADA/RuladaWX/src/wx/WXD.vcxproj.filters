@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="aui">
+      <UniqueIdentifier>{26d3e4ed-2b6e-4038-aaa6-50c99bebb49d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ogl">
+      <UniqueIdentifier>{0d2d5118-5691-4248-8685-128db66780e4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <DCompile Include="ogl\ogl.d">
+      <Filter>ogl</Filter>
+    </DCompile>
+    <DCompile Include="aui\aui.d">
+      <Filter>aui</Filter>
+    </DCompile>
+    <DCompile Include="aui\DockArt.d">
+      <Filter>aui</Filter>
+    </DCompile>
+    <DCompile Include="aui\FrameManager.d">
+      <Filter>aui</Filter>
+    </DCompile>
+  </ItemGroup>
+</Project>

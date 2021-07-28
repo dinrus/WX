@@ -1,0 +1,1975 @@
+# depslib dependency file v1.0
+1627438940 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\accelerator.d
+	<wx/common.d>
+	<wx/MenuItem.d>
+
+1627438940 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\activateevent.d
+	<wx/common.d>
+	<wx/Event.d>
+
+1627438940 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\app.d
+	<wx/common.d>
+	<wx/EvtHandler.d>
+	<wx/Window.d>
+	<wx/GdiCommon.d>
+	<wx/Clipboard.d>
+	<wx/FontMisc.d>
+	<tango/core/Version.d>
+	<tango/stdc/stringz.d>
+	<tango/text/convert/Utf.d>
+	<std/string.d>
+	<std/utf.d>
+
+1627438940 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\arrayint.d
+	<wx/common.d>
+
+1627438940 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\arraystring.d
+	<wx/common.d>
+
+1627438940 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\artprovider.d
+	<wx/common.d>
+	<wx/Bitmap.d>
+	<wx/Icon.d>
+	<wx/Window.d>
+
+1627438942 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\aui\aui.d
+	<wx/common.d>
+	<wx/aui/FrameManager.d>
+	<wx/aui/DockArt.d>
+
+1627438942 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\aui\dockart.d
+	<wx/aui/FrameManager.d>
+	<wx/wx.d>
+
+1627438942 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\aui\framemanager.d
+	<wx/wx.d>
+	<wx/MiniFrame.d>
+	<wx/Image.d>
+	<wx/Event.d>
+	<wx/EvtHandler.d>
+	<wx/aui/DockArt.d>
+
+1627438940 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\bitmap.d
+	<wx/common.d>
+	<wx/GDIObject.d>
+	<wx/Colour.d>
+	<wx/Palette.d>
+	<wx/Image.d>
+	<wx/Icon.d>
+
+1627438940 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\bitmapbutton.d
+	<wx/common.d>
+	<wx/Bitmap.d>
+	<wx/Button.d>
+	<wx/Control.d>
+
+1627438940 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\boxsizer.d
+	<wx/common.d>
+	<wx/Sizer.d>
+
+1627438940 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\brush.d
+	<wx/common.d>
+	<wx/Bitmap.d>
+
+1627438940 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\button.d
+	<wx/common.d>
+	<wx/Control.d>
+	<wx/Bitmap.d>
+
+1627438940 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\calendarctrl.d
+	<wx/common.d>
+	<wx/wxDateTime.d>
+	<wx/Colour.d>
+	<wx/Font.d>
+	<wx/Control.d>
+	<wx/CommandEvent.d>
+
+1627438940 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\caret.d
+	<wx/common.d>
+	<wx/Window.d>
+
+1627438940 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\checkbox.d
+	<wx/common.d>
+	<wx/Control.d>
+
+1627438940 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\childfocusevent.d
+	<wx/common.d>
+	<wx/CommandEvent.d>
+	<wx/Window.d>
+
+1627438940 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\choice.d
+	<wx/common.d>
+	<wx/Control.d>
+	<wx/ClientData.d>
+	<wx/IControlWithItems.d>
+	<wx/ArrayString.d>
+
+1627438940 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\choicedialog.d
+	<wx/common.d>
+	<wx/Dialog.d>
+	<wx/ClientData.d>
+	<wx/ArrayInt.d>
+
+1627438940 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\clientdata.d
+	<wx/common.d>
+
+1627438940 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\clipboard.d
+	<wx/common.d>
+	<wx/DataFormat.d>
+	<wx/DataObject.d>
+
+1627438940 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\closeevent.d
+	<wx/common.d>
+	<wx/Event.d>
+
+1627438940 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\colour.d
+	<wx/common.d>
+	<std/string.d>
+	<std/utf.d>
+
+1627438940 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\colourdialog.d
+	<wx/common.d>
+	<wx/Colour.d>
+	<wx/Dialog.d>
+
+1627438940 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\combobox.d
+	<wx/common.d>
+	<wx/Control.d>
+	<wx/ClientData.d>
+
+1627438940 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\commandevent.d
+	<wx/common.d>
+	<wx/Event.d>
+	<wx/ClientData.d>
+
+1627438942 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\common.d
+	<tango/stdc/stddef.d>
+	<std/c.d>
+	<std/compiler.d>
+	<std/contracts.d>
+	<wx/Defs.d>
+	<wx/wxObject.d>
+	<wx/wxString.d>
+	<wx/Log.d>
+	<wx/Event.d>
+	<wx/EvtHandler.d>
+	<wx/App.d>
+	<wx/Utils.d>
+
+1627438940 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\config.d
+	<wx/common.d>
+	<wx/Font.d>
+	<wx/Colour.d>
+	<wx/wxString.d>
+
+1627438940 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\contextmenuevent.d
+	<wx/common.d>
+	<wx/CommandEvent.d>
+	<wx/Window.d>
+
+1627438940 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\control.d
+	<wx/common.d>
+	<wx/Window.d>
+
+1627438940 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\cursor.d
+	<wx/common.d>
+	<wx/Bitmap.d>
+
+1627438940 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\dataformat.d
+	<wx/common.d>
+
+1627438940 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\dataobject.d
+	<wx/common.d>
+	<wx/ArrayString.d>
+
+1627438940 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\dc.d
+	<wx/common.d>
+	<wx/Window.d>
+	<wx/Pen.d>
+	<wx/Brush.d>
+	<wx/ArrayInt.d>
+
+1627438940 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\defs.d
+	<wx/common.d>
+
+1627438940 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\dialog.d
+	<wx/common.d>
+	<wx/Window.d>
+
+1627438940 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\dirdialog.d
+	<wx/common.d>
+	<wx/Dialog.d>
+
+1627438940 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\display.d
+	<wx/common.d>
+	<wx/VideoMode.d>
+	<wx/Window.d>
+
+1627438940 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\displaychangedevent.d
+	<wx/common.d>
+	<wx/Event.d>
+
+1627438940 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\dnd.d
+	<wx/common.d>
+	<wx/DataObject.d>
+	<wx/Window.d>
+
+1627438940 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\docmanager.d
+
+1627438940 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\doctemplate.d
+
+1627438940 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\document.d
+	<wx/common.d>
+	<wx/EvtHandler.d>
+
+1627438940 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\eraseevent.d
+	<wx/common.d>
+	<wx/Event.d>
+	<wx/DC.d>
+
+1627438940 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\event.d
+	<wx/common.d>
+
+1627438940 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\evthandler.d
+	<wx/common.d>
+	<wx/Event.d>
+	<wx/TaskBarIcon.d>
+	<wx/App.d>
+	<wx/StyledTextCtrl.d>
+
+1627438940 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\filedialog.d
+	<wx/common.d>
+	<wx/Dialog.d>
+	<wx/ArrayString.d>
+	<std/string.d>
+
+1627438940 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\findreplacedialog.d
+	<wx/common.d>
+	<wx/Dialog.d>
+	<wx/CommandEvent.d>
+
+1627438941 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\flexgridsizer.d
+	<wx/common.d>
+	<wx/GridSizer.d>
+
+1627438941 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\focusevent.d
+	<wx/common.d>
+	<wx/Window.d>
+	<wx/Event.d>
+
+1627438941 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\font.d
+	<wx/common.d>
+	<wx/GDIObject.d>
+
+1627438941 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\fontdialog.d
+	<wx/common.d>
+	<wx/Dialog.d>
+	<wx/Font.d>
+	<wx/GdiCommon.d>
+
+1627438941 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\fontmisc.d
+	<wx/common.d>
+	<wx/Font.d>
+	<wx/Window.d>
+	<wx/ArrayString.d>
+
+1627438941 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\frame.d
+	<wx/common.d>
+	<wx/Window.d>
+	<wx/ToolBar.d>
+	<wx/MenuBar.d>
+	<wx/StatusBar.d>
+	<wx/Icon.d>
+
+1627438941 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\gauge.d
+	<wx/common.d>
+	<wx/Control.d>
+
+1627438941 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\gdicommon.d
+	<wx/common.d>
+	<wx/Bitmap.d>
+	<wx/Cursor.d>
+	<wx/Icon.d>
+	<wx/Pen.d>
+	<wx/Brush.d>
+	<wx/Font.d>
+	<wx/Colour.d>
+
+1627438941 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\gdiobject.d
+	<wx/common.d>
+
+1627438941 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\glcanvas.d
+	<wx/common.d>
+	<wx/Window.d>
+	<wx/Palette.d>
+
+1627438941 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\gridbagsizer.d
+	<wx/common.d>
+	<wx/SizerItem.d>
+	<wx/FlexGridSizer.d>
+
+1627438941 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\gridsizer.d
+	<wx/common.d>
+	<wx/Sizer.d>
+
+1627438941 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\helpevent.d
+	<wx/common.d>
+	<wx/CommandEvent.d>
+	<wx/Window.d>
+
+1627438941 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\html.d
+	<wx/common.d>
+	<wx/ScrolledWindow.d>
+	<wx/Frame.d>
+	<wx/Config.d>
+	<wx/PrintData.d>
+	<wx/MouseEvent.d>
+
+1627438941 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\htmlhelpcontroller.d
+	<wx/common.d>
+	<wx/Config.d>
+	<wx/Frame.d>
+
+1627438941 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\icon.d
+	<wx/common.d>
+	<wx/Bitmap.d>
+	<tango/core/Version.d>
+	<tango/text/convert/Utf.d>
+	<std/string.d>
+	<std/utf.d>
+
+1627438941 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\iconizeevent.d
+	<wx/common.d>
+	<wx/Event.d>
+
+1627438941 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\icontrolwithitems.d
+	<wx/ClientData.d>
+
+1627438941 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\idleevent.d
+	<wx/common.d>
+	<wx/Event.d>
+	<wx/Window.d>
+
+1627438941 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\image.d
+	<wx/common.d>
+	<wx/Defs.d>
+	<wx/Bitmap.d>
+	<wx/Palette.d>
+	<wx/Colour.d>
+
+1627438941 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\imagehandlers.d
+	<wx/common.d>
+	<wx/Image.d>
+
+1627438941 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\imagelist.d
+	<wx/common.d>
+	<wx/Bitmap.d>
+	<wx/DC.d>
+
+1627438941 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\initdialogevent.d
+	<wx/common.d>
+	<wx/Event.d>
+
+1627438941 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\keyevent.d
+	<wx/common.d>
+	<wx/Event.d>
+
+1627438941 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\layoutwin.d
+	<wx/common.d>
+	<wx/SashWindow.d>
+	<wx/Event.d>
+	<wx/Frame.d>
+	<wx/MDI.d>
+
+1627438942 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\libs.d
+
+1627438941 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\listbook.d
+	<wx/common.d>
+	<wx/Control.d>
+	<wx/ImageList.d>
+
+1627438941 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\listbox.d
+	<wx/common.d>
+	<wx/Control.d>
+	<wx/ClientData.d>
+
+1627438941 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\listctrl.d
+	<wx/common.d>
+	<wx/Control.d>
+	<wx/ClientData.d>
+	<wx/ImageList.d>
+
+1627438941 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\locale.d
+	<wx/common.d>
+	<wx/Font.d>
+
+1627438941 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\log.d
+	<wx/common.d>
+	<wx/TextCtrl.d>
+	<tango/core/Vararg.d>
+	<tango/text/convert/Format.d>
+	<std/format.d>
+	<std/stdarg.d>
+
+1627438941 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\maximizeevent.d
+	<wx/common.d>
+	<wx/Event.d>
+
+1627438941 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\mdi.d
+	<wx/common.d>
+	<wx/Frame.d>
+
+1627438941 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\memorydc.d
+	<wx/common.d>
+	<wx/DC.d>
+
+1627438941 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\menu.d
+	<wx/common.d>
+	<wx/Defs.d>
+	<wx/Window.d>
+	<wx/MenuItem.d>
+	<wx/MenuBar.d>
+
+1627438941 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\menubar.d
+	<wx/common.d>
+	<wx/EvtHandler.d>
+	<wx/Menu.d>
+
+1627438941 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\menuitem.d
+	<wx/common.d>
+	<wx/Accelerator.d>
+	<wx/Menu.d>
+	<wx/Bitmap.d>
+	<wx/EvtHandler.d>
+
+1627438941 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\messagedialog.d
+	<wx/common.d>
+	<wx/Dialog.d>
+
+1627438941 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\miniframe.d
+	<wx/common.d>
+	<wx/Frame.d>
+
+1627438941 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\mousecapturechangedevent.d
+	<wx/common.d>
+	<wx/Event.d>
+	<wx/Window.d>
+
+1627438941 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\mouseevent.d
+	<wx/common.d>
+	<wx/Event.d>
+	<wx/DC.d>
+
+1627438941 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\moveevent.d
+	<wx/common.d>
+	<wx/Event.d>
+
+1627438941 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\navigationkeyevent.d
+	<wx/common.d>
+	<wx/Event.d>
+	<wx/Window.d>
+
+1627438941 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\ncpaintevent.d
+	<wx/common.d>
+	<wx/Event.d>
+
+1627438941 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\notebook.d
+	<wx/common.d>
+	<wx/Event.d>
+	<wx/Control.d>
+	<wx/ImageList.d>
+
+1627438941 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\notebooksizer.d
+	<wx/common.d>
+	<wx/Sizer.d>
+	<wx/Notebook.d>
+
+1627438941 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\notifyevent.d
+	<wx/common.d>
+	<wx/CommandEvent.d>
+
+1627438941 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\numberdialog.d
+	<wx/common.d>
+	<wx/Dialog.d>
+
+1627438942 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\ogl\ogl.d
+	<wx/common.d>
+	<wx/ogl/Shape.d>
+	<wx/ogl/LineShape.d>
+	<wx/ogl/DividedShape.d>
+	<wx/ogl/CompositeShape.d>
+	<wx/ogl/ShapeCanvas.d>
+	<wx/ogl/Diagram.d>
+	<wx/ogl/BitmapShape.d>
+	<wx/ogl/OGLConstraint.d>
+	<wx/ogl/DrawnShape.d>
+	<wx/ogl/MetaFile.d>
+	<wx/ogl/misc.d>
+
+1627438941 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\paintevent.d
+	<wx/common.d>
+	<wx/Event.d>
+
+1627438941 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\palette.d
+	<wx/common.d>
+	<wx/GDIObject.d>
+
+1627438941 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\palettechangedevent.d
+	<wx/common.d>
+	<wx/Event.d>
+	<wx/Window.d>
+
+1627438941 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\panel.d
+	<wx/common.d>
+	<wx/Window.d>
+	<wx/Button.d>
+
+1627438941 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\pen.d
+	<wx/common.d>
+	<wx/Defs.d>
+	<wx/GDIObject.d>
+	<wx/Colour.d>
+
+1627438941 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\printdata.d
+	<wx/common.d>
+
+1627438941 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\printdialog.d
+	<wx/common.d>
+	<wx/Dialog.d>
+	<wx/PrintData.d>
+
+1627438941 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\printer.d
+	<wx/common.d>
+	<wx/Window.d>
+	<wx/PrintData.d>
+
+1627438941 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\printpreview.d
+	<wx/common.d>
+	<wx/Panel.d>
+	<wx/Frame.d>
+	<wx/ScrolledWindow.d>
+	<wx/PrintData.d>
+	<wx/Printer.d>
+
+1627438941 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\progressdialog.d
+	<wx/common.d>
+	<wx/Dialog.d>
+
+1627438941 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\querynewpaletteevent.d
+	<wx/common.d>
+	<wx/Event.d>
+
+1627438941 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\radiobox.d
+	<wx/common.d>
+	<wx/Control.d>
+
+1627438941 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\radiobutton.d
+	<wx/common.d>
+	<wx/Control.d>
+
+1627438942 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\region.d
+	<wx/common.d>
+	<wx/GDIObject.d>
+	<wx/Bitmap.d>
+	<wx/Colour.d>
+
+1627438942 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\sashwindow.d
+	<wx/common.d>
+	<wx/Window.d>
+	<wx/CommandEvent.d>
+
+1627438942 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\scrollbar.d
+	<wx/common.d>
+	<wx/Control.d>
+
+1627438942 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\scrolledwindow.d
+	<wx/common.d>
+	<wx/Panel.d>
+
+1627438942 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\setcursorevent.d
+	<wx/common.d>
+	<wx/Event.d>
+	<wx/Cursor.d>
+
+1627438942 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\showevent.d
+	<wx/common.d>
+	<wx/Event.d>
+
+1627438942 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\sizeevent.d
+	<wx/common.d>
+	<wx/Event.d>
+
+1627438942 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\sizer.d
+	<wx/common.d>
+	<wx/Window.d>
+
+1627438942 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\sizeritem.d
+	<wx/common.d>
+	<wx/Window.d>
+
+1627438942 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\slider.d
+	<wx/common.d>
+	<wx/Control.d>
+
+1627438942 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\sound.d
+	<wx/common.d>
+
+1627438942 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\spinbutton.d
+	<wx/common.d>
+	<wx/CommandEvent.d>
+	<wx/Control.d>
+
+1627438942 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\spinctrl.d
+	<wx/common.d>
+	<wx/Control.d>
+
+1627438942 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\splashscreen.d
+	<wx/common.d>
+	<wx/Frame.d>
+
+1627438942 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\splitterwindow.d
+	<wx/common.d>
+	<wx/Window.d>
+
+1627438942 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\staticbitmap.d
+	<wx/common.d>
+	<wx/Control.d>
+
+1627438942 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\staticbox.d
+	<wx/common.d>
+	<wx/Control.d>
+
+1627438942 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\staticboxsizer.d
+	<wx/common.d>
+	<wx/BoxSizer.d>
+	<wx/StaticBox.d>
+
+1627438942 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\staticline.d
+	<wx/common.d>
+	<wx/Control.d>
+
+1627438942 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\statictext.d
+	<wx/common.d>
+	<wx/Control.d>
+
+1627438942 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\statusbar.d
+	<wx/common.d>
+	<wx/Window.d>
+
+1627438942 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\styledtextctrl.d
+	<wx/common.d>
+	<wx/Control.d>
+	<wx/CommandEvent.d>
+
+1627438942 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\syscolourchangedevent.d
+	<wx/common.d>
+	<wx/Event.d>
+
+1627438942 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\systemsettings.d
+	<wx/common.d>
+	<wx/Colour.d>
+	<wx/Font.d>
+
+1627438942 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\tabctrl.d
+	<wx/common.d>
+	<wx/Event.d>
+	<wx/Control.d>
+	<wx/ImageList.d>
+	<wx/wxString.d>
+
+1627438942 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\taskbaricon.d
+	<wx/common.d>
+	<wx/EvtHandler.d>
+	<wx/Icon.d>
+	<wx/Menu.d>
+
+1627438942 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\textctrl.d
+	<wx/common.d>
+	<wx/Control.d>
+	<wx/CommandEvent.d>
+	<wx/KeyEvent.d>
+
+1627438942 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\textdialog.d
+	<wx/common.d>
+	<wx/Dialog.d>
+
+1627438942 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\thread.d
+	<wx/common.d>
+
+1627438942 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\timer.d
+	<wx/common.d>
+	<wx/EvtHandler.d>
+
+1627438942 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\tipdialog.d
+	<wx/common.d>
+	<wx/Dialog.d>
+
+1627438942 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\tipwindow.d
+	<wx/common.d>
+	<wx/Window.d>
+
+1627438942 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\togglebutton.d
+	<wx/common.d>
+	<wx/Control.d>
+
+1627438942 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\tooltip.d
+	<wx/common.d>
+	<wx/Window.d>
+
+1627438942 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\treectrl.d
+	<wx/common.d>
+	<wx/Control.d>
+	<wx/ClientData.d>
+	<wx/ImageList.d>
+	<wx/KeyEvent.d>
+
+1627438942 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\updateuievent.d
+	<wx/common.d>
+	<wx/CommandEvent.d>
+	<wx/Window.d>
+
+1627438942 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\utils.d
+	<wx/common.d>
+	<wx/Window.d>
+
+1627438942 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\validator.d
+	<wx/common.d>
+	<wx/EvtHandler.d>
+
+1627438942 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\videomode.d
+	<wx/common.d>
+	<tango/core/Version.d>
+	<tango/text/convert/Integer.d>
+	<std/string.d>
+	<std/conv.d>
+
+1627438942 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\view.d
+
+1627438942 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\window.d
+	<wx/common.d>
+	<wx/EvtHandler.d>
+	<wx/Cursor.d>
+	<wx/Font.d>
+	<wx/Colour.d>
+	<wx/Region.d>
+	<wx/Validator.d>
+	<wx/Palette.d>
+	<wx/Accelerator.d>
+	<wx/Caret.d>
+	<wx/DC.d>
+	<wx/DND.d>
+	<wx/Sizer.d>
+	<wx/Menu.d>
+	<wx/ToolTip.d>
+
+1627438942 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\windowcreateevent.d
+	<wx/common.d>
+	<wx/CommandEvent.d>
+	<wx/Window.d>
+
+1627438942 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\windowdestroyevent.d
+	<wx/common.d>
+	<wx/CommandEvent.d>
+	<wx/Window.d>
+
+1627438942 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\wizard.d
+	<wx/common.d>
+	<wx/Dialog.d>
+	<wx/Panel.d>
+	<wx/NotifyEvent.d>
+	<wx/WizardPage.d>
+
+1627438942 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\wizardpage.d
+	<wx/Panel.d>
+
+1627438942 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\wizardpagesimple.d
+	<wx/WizardPage.d>
+	<wx/Wizard.d>
+
+1627438942 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\wx.d
+	<wx/common.d>
+	<wx/Accelerator.d>
+	<wx/ActivateEvent.d>
+	<wx/App.d>
+	<wx/ArtProvider.d>
+	<wx/Bitmap.d>
+	<wx/BitmapButton.d>
+	<wx/BoxSizer.d>
+	<wx/Brush.d>
+	<wx/Button.d>
+	<wx/CalendarCtrl.d>
+	<wx/Caret.d>
+	<wx/CheckBox.d>
+	<wx/ChildFocusEvent.d>
+	<wx/Choice.d>
+	<wx/ChoiceDialog.d>
+	<wx/ClientData.d>
+	<wx/Clipboard.d>
+	<wx/CloseEvent.d>
+	<wx/Colour.d>
+	<wx/ColourDialog.d>
+	<wx/ComboBox.d>
+	<wx/CommandEvent.d>
+	<wx/Config.d>
+	<wx/ContextMenuEvent.d>
+	<wx/Control.d>
+	<wx/Cursor.d>
+	<wx/DC.d>
+	<wx/DND.d>
+	<wx/DataFormat.d>
+	<wx/DataObject.d>
+	<wx/DbGrid.d>
+	<wx/Defs.d>
+	<wx/Dialog.d>
+	<wx/DirDialog.d>
+	<wx/Display.d>
+	<wx/DisplayChangedEvent.d>
+	<wx/DocManager.d>
+	<wx/DocTemplate.d>
+	<wx/Document.d>
+	<wx/EraseEvent.d>
+	<wx/Event.d>
+	<wx/EvtHandler.d>
+	<wx/FileDialog.d>
+	<wx/FindReplaceDialog.d>
+	<wx/FlexGridSizer.d>
+	<wx/FocusEvent.d>
+	<wx/Font.d>
+	<wx/FontDialog.d>
+	<wx/FontMisc.d>
+	<wx/Frame.d>
+	<wx/GDIObject.d>
+	<wx/Gauge.d>
+	<wx/GdiCommon.d>
+	<wx/Grid.d>
+	<wx/GridBagSizer.d>
+	<wx/GridCtrl.d>
+	<wx/GridSizer.d>
+	<wx/HTML.d>
+	<wx/HelpEvent.d>
+	<wx/HtmlHelpController.d>
+	<wx/HtmlListBox.d>
+	<wx/IControlWithItems.d>
+	<wx/Icon.d>
+	<wx/IconizeEvent.d>
+	<wx/IdleEvent.d>
+	<wx/Image.d>
+	<wx/ImageList.d>
+	<wx/ImageHandlers.d>
+	<wx/InitDialogEvent.d>
+	<wx/KeyEvent.d>
+	<wx/LayoutWin.d>
+	<wx/ListBox.d>
+	<wx/ListCtrl.d>
+	<wx/Listbook.d>
+	<wx/Locale.d>
+	<wx/Log.d>
+	<wx/MDI.d>
+	<wx/MaximizeEvent.d>
+	<wx/MemoryDC.d>
+	<wx/Menu.d>
+	<wx/MenuBar.d>
+	<wx/MenuItem.d>
+	<wx/MessageDialog.d>
+	<wx/MiniFrame.d>
+	<wx/MouseCaptureChangedEvent.d>
+	<wx/MouseEvent.d>
+	<wx/MoveEvent.d>
+	<wx/NavigationKeyEvent.d>
+	<wx/NcPaintEvent.d>
+	<wx/Notebook.d>
+	<wx/NotebookSizer.d>
+	<wx/PaintEvent.d>
+	<wx/Palette.d>
+	<wx/PaletteChangedEvent.d>
+	<wx/Panel.d>
+	<wx/Pen.d>
+	<wx/PrintData.d>
+	<wx/PrintDialog.d>
+	<wx/PrintPreview.d>
+	<wx/Printer.d>
+	<wx/ProgressDialog.d>
+	<wx/QueryNewPaletteEvent.d>
+	<wx/RadioBox.d>
+	<wx/RadioButton.d>
+	<wx/Region.d>
+	<wx/SashWindow.d>
+	<wx/ScrollBar.d>
+	<wx/ScrolledWindow.d>
+	<wx/SetCursorEvent.d>
+	<wx/ShowEvent.d>
+	<wx/SizeEvent.d>
+	<wx/Sizer.d>
+	<wx/SizerItem.d>
+	<wx/Slider.d>
+	<wx/SpinButton.d>
+	<wx/SpinCtrl.d>
+	<wx/SplashScreen.d>
+	<wx/SplitterWindow.d>
+	<wx/StaticBitmap.d>
+	<wx/StaticBox.d>
+	<wx/StaticBoxSizer.d>
+	<wx/StaticLine.d>
+	<wx/StaticText.d>
+	<wx/StatusBar.d>
+	<wx/StyledTextCtrl.d>
+	<wx/SysColourChangedEvent.d>
+	<wx/SystemSettings.d>
+	<wx/TabCtrl.d>
+	<wx/TaskBarIcon.d>
+	<wx/TextCtrl.d>
+	<wx/TextDialog.d>
+	<wx/Thread.d>
+	<wx/Timer.d>
+	<wx/TipDialog.d>
+	<wx/TipWindow.d>
+	<wx/ToggleButton.d>
+	<wx/ToolBar.d>
+	<wx/ToolTip.d>
+	<wx/TreeCtrl.d>
+	<wx/UpdateUIEvent.d>
+	<wx/Utils.d>
+	<wx/VLBox.d>
+	<wx/VScroll.d>
+	<wx/Validator.d>
+	<wx/VideoMode.d>
+	<wx/View.d>
+	<wx/Window.d>
+	<wx/WindowCreateEvent.d>
+	<wx/WindowDestroyEvent.d>
+	<wx/Wizard.d>
+	<wx/WizardPageSimple.d>
+	<wx/XmlResource.d>
+	<wx/wxDateTime.d>
+	<wx/wxObject.d>
+	<wx/wxString.d>
+	<wx/wxVersion.d>
+	<wx/wxPlatform.d>
+	<wx/NumberDialog.d>
+	<wx/libs.d>
+
+1627438942 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\wxdatetime.d
+	<wx/common.d>
+	<std/date.d>
+
+1627438942 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\wxobject.d
+	<wx/common.d>
+	<tango/core/Version.d>
+
+1627438942 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\wxplatform.d
+	<wx/common.d>
+	<std/string.d>
+
+1627438942 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\wxstring.d
+	<wx/common.d>
+	<tango/core/Version.d>
+	<std/string.d>
+	<std/utf.d>
+
+1627438942 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\wxversion.d
+	<wx/common.d>
+	<std/string.d>
+
+1627438942 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\xmlresource.d
+	<wx/common.d>
+	<wx/Dialog.d>
+	<wx/Window.d>
+	<wx/Frame.d>
+	<wx/Menu.d>
+	<wx/MenuBar.d>
+	<wx/Panel.d>
+	<wx/ToolBar.d>
+	<std/stream.d>
+	<std/regexp.d>
+
+1627438941 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\wxd\grid.d
+	<wx/common.d>
+	<wx/Event.d>
+	<wx/KeyEvent.d>
+	<wx/CommandEvent.d>
+	<wx/Window.d>
+	<wx/Control.d>
+	<wx/ScrolledWindow.d>
+
+1627494895 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\accelerator.d
+	<wx/common.d>
+	<wx/MenuItem.d>
+
+1513754424 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\activateevent.d
+	<wx/common.d>
+	<wx/Event.d>
+
+1627495047 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\app.d
+	<wx/common.d>
+	<wx/EvtHandler.d>
+	<wx/Window.d>
+	<wx/GdiCommon.d>
+	<wx/Clipboard.d>
+	<wx/FontMisc.d>
+	<stdrus.d>
+
+1513754419 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\arrayint.d
+	<wx/common.d>
+
+1513754423 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\arraystring.d
+	<wx/common.d>
+
+1513754425 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\artprovider.d
+	<wx/common.d>
+	<wx/Bitmap.d>
+	<wx/Icon.d>
+	<wx/Window.d>
+
+1163769662 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\aui\aui.d
+	<wx/common.d>
+	<wx/aui/FrameManager.d>
+	<wx/aui/DockArt.d>
+
+1513754415 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\aui\dockart.d
+	<wx/aui/FrameManager.d>
+	<wx/wx.d>
+
+1618505573 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\aui\framemanager.d
+	<wx/wx.d>
+	<wx/MiniFrame.d>
+	<wx/Image.d>
+	<wx/Event.d>
+	<wx/EvtHandler.d>
+	<wx/aui/DockArt.d>
+
+1513754414 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\bitmap.d
+	<wx/common.d>
+	<wx/GDIObject.d>
+	<wx/Colour.d>
+	<wx/Palette.d>
+	<wx/Image.d>
+	<wx/Icon.d>
+
+1618505573 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\bitmapbutton.d
+	<wx/common.d>
+	<wx/Bitmap.d>
+	<wx/Button.d>
+	<wx/Control.d>
+
+1513754413 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\boxsizer.d
+	<wx/common.d>
+	<wx/Sizer.d>
+
+1513754416 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\brush.d
+	<wx/common.d>
+	<wx/Bitmap.d>
+
+1514211611 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\button.d
+	<wx/common.d>
+	<wx/Control.d>
+	<wx/Bitmap.d>
+
+1514211611 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\calendarctrl.d
+	<wx/common.d>
+	<wx/wxDateTime.d>
+	<wx/Colour.d>
+	<wx/Font.d>
+	<wx/Control.d>
+	<wx/CommandEvent.d>
+
+1514211611 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\caret.d
+	<wx/common.d>
+	<wx/Window.d>
+
+1514211611 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\checkbox.d
+	<wx/common.d>
+	<wx/Control.d>
+
+1513754415 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\childfocusevent.d
+	<wx/common.d>
+	<wx/CommandEvent.d>
+	<wx/Window.d>
+
+1514211611 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\choice.d
+	<wx/common.d>
+	<wx/Control.d>
+	<wx/ClientData.d>
+	<wx/IControlWithItems.d>
+	<wx/ArrayString.d>
+
+1513754424 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\choicedialog.d
+	<wx/common.d>
+	<wx/Dialog.d>
+	<wx/ClientData.d>
+	<wx/ArrayInt.d>
+
+1513754424 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\clientdata.d
+	<wx/common.d>
+
+1513754424 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\clipboard.d
+	<wx/common.d>
+	<wx/DataFormat.d>
+	<wx/DataObject.d>
+
+1513754418 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\closeevent.d
+	<wx/common.d>
+	<wx/Event.d>
+
+1618504445 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\colour.d
+	<wx/common.d>
+	<stdrus.d>
+
+1514211611 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\colourdialog.d
+	<wx/common.d>
+	<wx/Colour.d>
+	<wx/Dialog.d>
+
+1514211611 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\combobox.d
+	<wx/common.d>
+	<wx/Control.d>
+	<wx/ClientData.d>
+
+1513754418 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\commandevent.d
+	<wx/common.d>
+	<wx/Event.d>
+	<wx/ClientData.d>
+
+1618505572 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\common.d
+	<tango/text/convert/Format.d>
+	<stdrus.d>
+	<wx/Defs.d>
+	<wx/wxObject.d>
+	<wx/wxString.d>
+	<wx/Log.d>
+	<wx/Event.d>
+	<wx/EvtHandler.d>
+	<wx/App.d>
+	<wx/Utils.d>
+
+1618505573 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\config.d
+	<wx/common.d>
+	<wx/Font.d>
+	<wx/Colour.d>
+	<wx/wxString.d>
+
+1513754414 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\contextmenuevent.d
+	<wx/common.d>
+	<wx/CommandEvent.d>
+	<wx/Window.d>
+
+1513754423 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\control.d
+	<wx/common.d>
+	<wx/Window.d>
+
+1513754414 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\cursor.d
+	<wx/common.d>
+	<wx/Bitmap.d>
+
+1513754416 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\dataformat.d
+	<wx/common.d>
+
+1513754416 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\dataobject.d
+	<wx/common.d>
+	<wx/ArrayString.d>
+
+1513754415 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\dc.d
+	<wx/common.d>
+	<wx/Window.d>
+	<wx/Pen.d>
+	<wx/Brush.d>
+	<wx/ArrayInt.d>
+
+1513754424 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\defs.d
+	<wx/common.d>
+
+1514211611 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\dialog.d
+	<wx/common.d>
+	<wx/Window.d>
+
+1514212134 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\dirdialog.d
+	<wx/common.d>
+	<wx/Dialog.d>
+
+1514212134 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\display.d
+	<wx/common.d>
+	<wx/VideoMode.d>
+	<wx/Window.d>
+
+1513754418 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\displaychangedevent.d
+	<wx/common.d>
+	<wx/Event.d>
+
+1513754415 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\dnd.d
+	<wx/common.d>
+	<wx/DataObject.d>
+	<wx/Window.d>
+
+1513754419 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\document.d
+	<wx/common.d>
+	<wx/EvtHandler.d>
+
+1513754423 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\eraseevent.d
+	<wx/common.d>
+	<wx/Event.d>
+	<wx/DC.d>
+
+1513754423 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\event.d
+	<wx/common.d>
+
+1618505573 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\evthandler.d
+	<wx/common.d>
+	<wx/Event.d>
+	<wx/TaskBarIcon.d>
+	<wx/App.d>
+	<wx/StyledTextCtrl.d>
+
+1618505572 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\filedialog.d
+	<wx/common.d>
+	<wx/Dialog.d>
+	<wx/ArrayString.d>
+	<stdrus.d>
+
+1514212134 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\findreplacedialog.d
+	<wx/common.d>
+	<wx/Dialog.d>
+	<wx/CommandEvent.d>
+
+1513754424 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\flexgridsizer.d
+	<wx/common.d>
+	<wx/GridSizer.d>
+
+1513754425 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\focusevent.d
+	<wx/common.d>
+	<wx/Window.d>
+	<wx/Event.d>
+
+1513754413 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\font.d
+	<wx/common.d>
+	<wx/GDIObject.d>
+
+1514211611 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\fontdialog.d
+	<wx/common.d>
+	<wx/Dialog.d>
+	<wx/Font.d>
+	<wx/GdiCommon.d>
+
+1513754414 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\fontmisc.d
+	<wx/common.d>
+	<wx/Font.d>
+	<wx/Window.d>
+	<wx/ArrayString.d>
+
+1514211612 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\frame.d
+	<wx/common.d>
+	<wx/Window.d>
+	<wx/ToolBar.d>
+	<wx/MenuBar.d>
+	<wx/StatusBar.d>
+	<wx/Icon.d>
+
+1514211612 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\gauge.d
+	<wx/common.d>
+	<wx/Control.d>
+
+1513754415 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\gdicommon.d
+	<wx/common.d>
+	<wx/Bitmap.d>
+	<wx/Cursor.d>
+	<wx/Icon.d>
+	<wx/Pen.d>
+	<wx/Brush.d>
+	<wx/Font.d>
+	<wx/Colour.d>
+
+1513754414 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\gdiobject.d
+	<wx/common.d>
+
+1170018396 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\grid.d
+	<wx/common.d>
+	<wx/Event.d>
+	<wx/KeyEvent.d>
+	<wx/CommandEvent.d>
+	<wx/Window.d>
+	<wx/Control.d>
+	<wx/ScrolledWindow.d>
+
+1513754416 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\gridbagsizer.d
+	<wx/common.d>
+	<wx/SizerItem.d>
+	<wx/FlexGridSizer.d>
+
+1168291154 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\gridctrl.d
+	<wx/common.d>
+	<wx/Grid.d>
+
+1513754415 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\gridsizer.d
+	<wx/common.d>
+	<wx/Sizer.d>
+
+1513754415 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\helpevent.d
+	<wx/common.d>
+	<wx/CommandEvent.d>
+	<wx/Window.d>
+
+1514211612 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\html.d
+	<wx/common.d>
+	<wx/ScrolledWindow.d>
+	<wx/Frame.d>
+	<wx/Config.d>
+	<wx/PrintData.d>
+	<wx/MouseEvent.d>
+
+1513754416 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\htmlhelpcontroller.d
+	<wx/common.d>
+	<wx/Config.d>
+	<wx/Frame.d>
+
+1513462597 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\htmllistbox.d
+	<wx/common.d>
+	<wx/VLBox.d>
+
+1618505572 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\icon.d
+	<wx/common.d>
+	<wx/Bitmap.d>
+	<stdrus.d>
+	<std/utf.d>
+
+1513754416 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\iconizeevent.d
+	<wx/common.d>
+	<wx/Event.d>
+
+1513754416 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\icontrolwithitems.d
+	<wx/ClientData.d>
+
+1513754417 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\idleevent.d
+	<wx/common.d>
+	<wx/Event.d>
+	<wx/Window.d>
+
+1513754417 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\image.d
+	<wx/common.d>
+	<wx/Defs.d>
+	<wx/Bitmap.d>
+	<wx/Palette.d>
+	<wx/Colour.d>
+
+1513754417 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\imagehandlers.d
+	<wx/common.d>
+	<wx/Image.d>
+
+1513754417 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\imagelist.d
+	<wx/common.d>
+	<wx/Bitmap.d>
+	<wx/DC.d>
+
+1513754417 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\initdialogevent.d
+	<wx/common.d>
+	<wx/Event.d>
+
+1513754418 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\keyevent.d
+	<wx/common.d>
+	<wx/Event.d>
+
+1514211612 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\layoutwin.d
+	<wx/common.d>
+	<wx/SashWindow.d>
+	<wx/Event.d>
+	<wx/Frame.d>
+	<wx/MDI.d>
+
+1513754416 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\libs.d
+
+1618505573 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\listbook.d
+	<wx/common.d>
+	<wx/Control.d>
+	<wx/ImageList.d>
+
+1618505573 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\listbox.d
+	<wx/common.d>
+	<wx/Control.d>
+	<wx/ClientData.d>
+
+1514211612 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\listctrl.d
+	<wx/common.d>
+	<wx/Control.d>
+	<wx/ClientData.d>
+	<wx/ImageList.d>
+
+1513754424 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\locale.d
+	<wx/common.d>
+	<wx/Font.d>
+
+1618510449 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\log.d
+	<wx/common.d>
+	<wx/TextCtrl.d>
+	<tango/text/convert/Format.d>
+	<stdrus.d>
+
+1513754417 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\maximizeevent.d
+	<wx/common.d>
+	<wx/Event.d>
+
+1513754424 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\mdi.d
+	<wx/common.d>
+	<wx/Frame.d>
+
+1513754417 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\memorydc.d
+	<wx/common.d>
+	<wx/DC.d>
+
+1618505573 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\menu.d
+	<wx/common.d>
+	<wx/Defs.d>
+	<wx/Window.d>
+	<wx/MenuItem.d>
+	<wx/MenuBar.d>
+
+1513754418 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\menubar.d
+	<wx/common.d>
+	<wx/EvtHandler.d>
+	<wx/Menu.d>
+
+1513754418 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\menuitem.d
+	<wx/common.d>
+	<wx/Accelerator.d>
+	<wx/Menu.d>
+	<wx/Bitmap.d>
+	<wx/EvtHandler.d>
+
+1513754419 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\messagedialog.d
+	<wx/common.d>
+	<wx/Dialog.d>
+
+1513754423 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\miniframe.d
+	<wx/common.d>
+	<wx/Frame.d>
+
+1513754423 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\mousecapturechangedevent.d
+	<wx/common.d>
+	<wx/Event.d>
+	<wx/Window.d>
+
+1513754424 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\mouseevent.d
+	<wx/common.d>
+	<wx/Event.d>
+	<wx/DC.d>
+
+1513754424 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\moveevent.d
+	<wx/common.d>
+	<wx/Event.d>
+
+1513754424 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\navigationkeyevent.d
+	<wx/common.d>
+	<wx/Event.d>
+	<wx/Window.d>
+
+1513754424 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\ncpaintevent.d
+	<wx/common.d>
+	<wx/Event.d>
+
+1514211612 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\notebook.d
+	<wx/common.d>
+	<wx/Event.d>
+	<wx/Control.d>
+	<wx/ImageList.d>
+
+1513754413 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\notebooksizer.d
+	<wx/common.d>
+	<wx/Sizer.d>
+	<wx/Notebook.d>
+
+1513754414 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\notifyevent.d
+	<wx/common.d>
+	<wx/CommandEvent.d>
+
+1513754414 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\numberdialog.d
+	<wx/common.d>
+	<wx/Dialog.d>
+
+1170095452 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\ogl\ogl.d
+	<wx/common.d>
+	<wx/ogl/Shape.d>
+	<wx/ogl/LineShape.d>
+	<wx/ogl/DividedShape.d>
+	<wx/ogl/CompositeShape.d>
+	<wx/ogl/ShapeCanvas.d>
+	<wx/ogl/Diagram.d>
+	<wx/ogl/BitmapShape.d>
+	<wx/ogl/OGLConstraint.d>
+	<wx/ogl/DrawnShape.d>
+	<wx/ogl/MetaFile.d>
+	<wx/ogl/misc.d>
+
+1513754414 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\paintevent.d
+	<wx/common.d>
+	<wx/Event.d>
+
+1514211612 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\palette.d
+	<wx/common.d>
+	<wx/GDIObject.d>
+
+1513754415 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\palettechangedevent.d
+	<wx/common.d>
+	<wx/Event.d>
+	<wx/Window.d>
+
+1513754415 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\panel.d
+	<wx/common.d>
+	<wx/Window.d>
+	<wx/Button.d>
+
+1513754415 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\pen.d
+	<wx/common.d>
+	<wx/Defs.d>
+	<wx/GDIObject.d>
+	<wx/Colour.d>
+
+1513754416 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\printdata.d
+	<wx/common.d>
+
+1513754416 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\printdialog.d
+	<wx/common.d>
+	<wx/Dialog.d>
+	<wx/PrintData.d>
+
+1513754416 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\printer.d
+	<wx/common.d>
+	<wx/Window.d>
+	<wx/PrintData.d>
+
+1513754416 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\printpreview.d
+	<wx/common.d>
+	<wx/Panel.d>
+	<wx/Frame.d>
+	<wx/ScrolledWindow.d>
+	<wx/PrintData.d>
+	<wx/Printer.d>
+
+1513754416 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\progressdialog.d
+	<wx/common.d>
+	<wx/Dialog.d>
+
+1513754417 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\querynewpaletteevent.d
+	<wx/common.d>
+	<wx/Event.d>
+
+1514211612 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\radiobox.d
+	<wx/common.d>
+	<wx/Control.d>
+
+1514211612 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\radiobutton.d
+	<wx/common.d>
+	<wx/Control.d>
+
+1618505573 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\region.d
+	<wx/common.d>
+	<wx/GDIObject.d>
+	<wx/Bitmap.d>
+	<wx/Colour.d>
+
+1514211612 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\sashwindow.d
+	<wx/common.d>
+	<wx/Window.d>
+	<wx/CommandEvent.d>
+
+1514211612 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\scrollbar.d
+	<wx/common.d>
+	<wx/Control.d>
+
+1513754418 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\scrolledwindow.d
+	<wx/common.d>
+	<wx/Panel.d>
+
+1513754419 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\setcursorevent.d
+	<wx/common.d>
+	<wx/Event.d>
+	<wx/Cursor.d>
+
+1513754423 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\showevent.d
+	<wx/common.d>
+	<wx/Event.d>
+
+1513754423 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\sizeevent.d
+	<wx/common.d>
+	<wx/Event.d>
+
+1513754424 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\sizer.d
+	<wx/common.d>
+	<wx/Window.d>
+
+1513754424 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\sizeritem.d
+	<wx/common.d>
+	<wx/Window.d>
+
+1514211612 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\slider.d
+	<wx/common.d>
+	<wx/Control.d>
+
+1513754424 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\sound.d
+	<wx/common.d>
+
+1514211612 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\spinbutton.d
+	<wx/common.d>
+	<wx/CommandEvent.d>
+	<wx/Control.d>
+
+1514211612 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\spinctrl.d
+	<wx/common.d>
+	<wx/Control.d>
+
+1513754414 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\splashscreen.d
+	<wx/common.d>
+	<wx/Frame.d>
+
+1513754414 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\splitterwindow.d
+	<wx/common.d>
+	<wx/Window.d>
+
+1514211612 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\staticbitmap.d
+	<wx/common.d>
+	<wx/Control.d>
+
+1514211612 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\staticbox.d
+	<wx/common.d>
+	<wx/Control.d>
+
+1513754415 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\staticboxsizer.d
+	<wx/common.d>
+	<wx/BoxSizer.d>
+	<wx/StaticBox.d>
+
+1514211612 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\staticline.d
+	<wx/common.d>
+	<wx/Control.d>
+
+1514211612 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\statictext.d
+	<wx/common.d>
+	<wx/Control.d>
+
+1514211630 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\statusbar.d
+	<wx/common.d>
+	<wx/Window.d>
+
+1513756211 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\styledtextctrl.d
+	<wx/common.d>
+	<wx/Control.d>
+	<wx/CommandEvent.d>
+
+1513754416 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\syscolourchangedevent.d
+	<wx/common.d>
+	<wx/Event.d>
+
+1513754416 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\systemsettings.d
+	<wx/common.d>
+	<wx/Colour.d>
+	<wx/Font.d>
+
+1513754417 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\tabctrl.d
+	<wx/common.d>
+	<wx/Event.d>
+	<wx/Control.d>
+	<wx/ImageList.d>
+	<wx/wxString.d>
+
+1513754417 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\taskbaricon.d
+	<wx/common.d>
+	<wx/EvtHandler.d>
+	<wx/Icon.d>
+	<wx/Menu.d>
+
+1514211625 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\textctrl.d
+	<wx/common.d>
+	<wx/Control.d>
+	<wx/CommandEvent.d>
+	<wx/KeyEvent.d>
+
+1513754417 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\textdialog.d
+	<wx/common.d>
+	<wx/Dialog.d>
+
+1513754417 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\thread.d
+	<wx/common.d>
+
+1513754418 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\timer.d
+	<wx/common.d>
+	<wx/EvtHandler.d>
+
+1513754418 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\tipdialog.d
+	<wx/common.d>
+	<wx/Dialog.d>
+
+1513754418 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\tipwindow.d
+	<wx/common.d>
+	<wx/Window.d>
+
+1514211590 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\togglebutton.d
+	<wx/common.d>
+	<wx/Control.d>
+
+1170018398 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\toolbar.d
+	<wx/common.d>
+	<wx/Bitmap.d>
+	<wx/Control.d>
+	<wx/ClientData.d>
+
+1513754423 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\tooltip.d
+	<wx/common.d>
+	<wx/Window.d>
+
+1618505573 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\treectrl.d
+	<wx/common.d>
+	<wx/Control.d>
+	<wx/ClientData.d>
+	<wx/ImageList.d>
+	<wx/KeyEvent.d>
+
+1513754424 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\updateuievent.d
+	<wx/common.d>
+	<wx/CommandEvent.d>
+	<wx/Window.d>
+
+1513754424 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\utils.d
+	<wx/common.d>
+	<wx/Window.d>
+
+1513754424 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\validator.d
+	<wx/common.d>
+	<wx/EvtHandler.d>
+
+1618510484 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\videomode.d
+	<wx/common.d>
+	<stdrus.d>
+	<std/string.d>
+
+1513462573 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\vlbox.d
+	<wx/common.d>
+	<wx/VScroll.d>
+
+1196144360 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\vscroll.d
+	<wx/common.d>
+	<wx/Panel.d>
+	<wx/SizeEvent.d>
+
+1618505573 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\window.d
+	<wx/common.d>
+	<wx/EvtHandler.d>
+	<wx/Cursor.d>
+	<wx/Font.d>
+	<wx/Colour.d>
+	<wx/Region.d>
+	<wx/Validator.d>
+	<wx/Palette.d>
+	<wx/Accelerator.d>
+	<wx/Caret.d>
+	<wx/DC.d>
+	<wx/DND.d>
+	<wx/Sizer.d>
+	<wx/Menu.d>
+	<wx/ToolTip.d>
+
+1513754414 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\windowcreateevent.d
+	<wx/common.d>
+	<wx/CommandEvent.d>
+	<wx/Window.d>
+
+1513754414 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\windowdestroyevent.d
+	<wx/common.d>
+	<wx/CommandEvent.d>
+	<wx/Window.d>
+
+1513754414 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\wizard.d
+	<wx/common.d>
+	<wx/Dialog.d>
+	<wx/Panel.d>
+	<wx/NotifyEvent.d>
+	<wx/WizardPage.d>
+
+1513754415 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\wizardpage.d
+	<wx/Panel.d>
+
+1513754415 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\wizardpagesimple.d
+	<wx/WizardPage.d>
+	<wx/Wizard.d>
+
+1627490371 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\wx.d
+	<wx/common.d>
+	<wx/Accelerator.d>
+	<wx/ActivateEvent.d>
+	<wx/App.d>
+	<wx/ArtProvider.d>
+	<wx/Bitmap.d>
+	<wx/BitmapButton.d>
+	<wx/BoxSizer.d>
+	<wx/Brush.d>
+	<wx/Button.d>
+	<wx/CalendarCtrl.d>
+	<wx/Caret.d>
+	<wx/CheckBox.d>
+	<wx/ChildFocusEvent.d>
+	<wx/Choice.d>
+	<wx/ChoiceDialog.d>
+	<wx/ClientData.d>
+	<wx/Clipboard.d>
+	<wx/CloseEvent.d>
+	<wx/Colour.d>
+	<wx/ColourDialog.d>
+	<wx/ComboBox.d>
+	<wx/CommandEvent.d>
+	<wx/Config.d>
+	<wx/ContextMenuEvent.d>
+	<wx/Control.d>
+	<wx/Cursor.d>
+	<wx/DC.d>
+	<wx/DND.d>
+	<wx/DataFormat.d>
+	<wx/DataObject.d>
+	<wx/Defs.d>
+	<wx/Dialog.d>
+	<wx/DirDialog.d>
+	<wx/DisplayChangedEvent.d>
+	<wx/Document.d>
+	<wx/EraseEvent.d>
+	<wx/Event.d>
+	<wx/EvtHandler.d>
+	<wx/FileDialog.d>
+	<wx/FindReplaceDialog.d>
+	<wx/FlexGridSizer.d>
+	<wx/FocusEvent.d>
+	<wx/Font.d>
+	<wx/FontDialog.d>
+	<wx/FontMisc.d>
+	<wx/Frame.d>
+	<wx/GDIObject.d>
+	<wx/Gauge.d>
+	<wx/GdiCommon.d>
+	<wx/Grid.d>
+	<wx/GridBagSizer.d>
+	<wx/GridCtrl.d>
+	<wx/GridSizer.d>
+	<wx/HTML.d>
+	<wx/HelpEvent.d>
+	<wx/HtmlHelpController.d>
+	<wx/HtmlListBox.d>
+	<wx/IControlWithItems.d>
+	<wx/Icon.d>
+	<wx/IconizeEvent.d>
+	<wx/IdleEvent.d>
+	<wx/Image.d>
+	<wx/ImageList.d>
+	<wx/ImageHandlers.d>
+	<wx/InitDialogEvent.d>
+	<wx/KeyEvent.d>
+	<wx/LayoutWin.d>
+	<wx/ListBox.d>
+	<wx/ListCtrl.d>
+	<wx/Listbook.d>
+	<wx/Locale.d>
+	<wx/Log.d>
+	<wx/MDI.d>
+	<wx/MaximizeEvent.d>
+	<wx/MemoryDC.d>
+	<wx/Menu.d>
+	<wx/MenuBar.d>
+	<wx/MenuItem.d>
+	<wx/MessageDialog.d>
+	<wx/MiniFrame.d>
+	<wx/MouseCaptureChangedEvent.d>
+	<wx/MouseEvent.d>
+	<wx/MoveEvent.d>
+	<wx/NavigationKeyEvent.d>
+	<wx/NcPaintEvent.d>
+	<wx/Notebook.d>
+	<wx/NotebookSizer.d>
+	<wx/PaintEvent.d>
+	<wx/Palette.d>
+	<wx/PaletteChangedEvent.d>
+	<wx/Panel.d>
+	<wx/Pen.d>
+	<wx/PrintData.d>
+	<wx/PrintDialog.d>
+	<wx/PrintPreview.d>
+	<wx/Printer.d>
+	<wx/ProgressDialog.d>
+	<wx/QueryNewPaletteEvent.d>
+	<wx/RadioBox.d>
+	<wx/RadioButton.d>
+	<wx/Region.d>
+	<wx/SashWindow.d>
+	<wx/ScrollBar.d>
+	<wx/ScrolledWindow.d>
+	<wx/SetCursorEvent.d>
+	<wx/ShowEvent.d>
+	<wx/SizeEvent.d>
+	<wx/Sizer.d>
+	<wx/SizerItem.d>
+	<wx/Slider.d>
+	<wx/SpinButton.d>
+	<wx/SpinCtrl.d>
+	<wx/SplashScreen.d>
+	<wx/SplitterWindow.d>
+	<wx/StaticBitmap.d>
+	<wx/StaticBox.d>
+	<wx/StaticBoxSizer.d>
+	<wx/StaticLine.d>
+	<wx/StaticText.d>
+	<wx/StatusBar.d>
+	<wx/StyledTextCtrl.d>
+	<wx/SysColourChangedEvent.d>
+	<wx/SystemSettings.d>
+	<wx/TabCtrl.d>
+	<wx/TaskBarIcon.d>
+	<wx/TextCtrl.d>
+	<wx/TextDialog.d>
+	<wx/Thread.d>
+	<wx/Timer.d>
+	<wx/TipDialog.d>
+	<wx/TipWindow.d>
+	<wx/ToggleButton.d>
+	<wx/ToolBar.d>
+	<wx/ToolTip.d>
+	<wx/TreeCtrl.d>
+	<wx/UpdateUIEvent.d>
+	<wx/Utils.d>
+	<wx/VLBox.d>
+	<wx/VScroll.d>
+	<wx/Validator.d>
+	<wx/VideoMode.d>
+	<wx/View.d>
+	<wx/Window.d>
+	<wx/WindowCreateEvent.d>
+	<wx/WindowDestroyEvent.d>
+	<wx/Wizard.d>
+	<wx/WizardPageSimple.d>
+	<wx/XmlResource.d>
+	<wx/wxDateTime.d>
+	<wx/wxObject.d>
+	<wx/wxString.d>
+	<wx/wxVersion.d>
+	<wx/wxPlatform.d>
+	<wx/NumberDialog.d>
+
+1513754419 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\wxdatetime.d
+	<wx/common.d>
+	<std/date.d>
+
+1618505573 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\wxobject.d
+	<wx/common.d>
+	<tango/core/Version.d>
+
+1618505573 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\wxplatform.d
+	<wx/common.d>
+
+1618505573 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\wxstring.d
+	<wx/common.d>
+	<stdrus.d>
+
+1618505274 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\wxversion.d
+	<wx/common.d>
+	<stdrus.d>
+
+1618505278 source:d:\dinrus\dinrus32\dev\release\wx\wx\dev\rulada\ruladawx\src\wx\xmlresource.d
+	<wx/common.d>
+	<wx/Dialog.d>
+	<wx/Window.d>
+	<wx/Frame.d>
+	<wx/Menu.d>
+	<wx/MenuBar.d>
+	<wx/Panel.d>
+	<wx/ToolBar.d>
+	<stdrus.d>
+

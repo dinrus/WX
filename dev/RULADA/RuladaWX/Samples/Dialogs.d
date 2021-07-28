@@ -13,6 +13,7 @@
 
 import wx.wx;
 pragma(lib, "wxd.lib");
+version = Tango;
 version (Tango)
 {
 import tango.core.Version;
@@ -637,7 +638,7 @@ alias std.random.rand RAND;
 
 		public void OnExit(Object sender, Event e)
 		{
-			Close(true);
+			super.Close(true);
 		}
 
 		//---------------------------------------------------------------------
@@ -777,6 +778,12 @@ alias std.random.rand RAND;
 			frame.Show(true);
 
 			return true;
+		}
+		
+		public void OnClose(Object sender, Event e)
+		{
+			// must add CloseEvent...
+			// must add Event.Veto
 		}
 
 		//---------------------------------------------------------------------

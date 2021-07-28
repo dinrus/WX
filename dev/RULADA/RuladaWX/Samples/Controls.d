@@ -16,8 +16,7 @@
 //-----------------------------------------------------------------------------
 
 import wx.wx;
-//pragma(lib, "wxd.lib");
-//pragma(lib, "wxc.lib");
+version = Tango;
 version (Tango)
 {
 import tango.core.Version;
