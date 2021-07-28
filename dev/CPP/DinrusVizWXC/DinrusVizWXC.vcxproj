@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{13aac0de-d631-4c9b-a329-16bdca6d3c28}</ProjectGuid>
+    <RootNamespace>DinrusViz</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>DinrusVizWXC</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <EnableASAN>true</EnableASAN>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>D:\dinrus\dinrus32\dev\dinrus\DinrusViz\DinrusVizWXC\include\msvc;D:\dinrus\dinrus32\dev\dinrus\DinrusViz\DinrusVizWXC\include;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\dinrus\dinrus32\dev\dinrus\DinrusViz\DinrusVizWXC\lib\vc_lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>D:\LLVM\include;.\lib\vc_lib\mswu;.\include;$(IncludePath)</IncludePath>
+    <LibraryPath>.\lib;D:\LLVM\lib;.\lib\vc_lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Label="Vcpkg">
+    <VcpkgEnabled>false</VcpkgEnabled>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;DINRUSVIZ_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Create</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+      <AdditionalDependencies>wxbase28ud.lib;wxmsw28ud_core.lib;wxmsw28ud_adv.lib;wxmsw28ud_gl.lib;wxmsw28ud_html.lib;wxmsw28ud_media.lib;wxmsw28ud_dbgrid.lib;wxmsw28ud_qa.lib;wxmsw28ud_richtext.lib;wxmsw28ud_xrc.lib;wxbase28ud_net.lib;wxbase28ud_xml.lib;wxmsw28ud_aui.lib;wxpngd.lib;wxregexud.lib;wxtiffd.lib;wxjpegd.lib;wxzlibd.lib;wxexpatd.lib;kernel32.lib;user32.lib;gdi32.lib;comdlg32.lib;winspool.lib;shell32.lib;shlwapi.lib;ole32.lib;oleaut32.lib;uuid.lib;advapi32.lib;version.lib;comctl32.lib;rpcrt4.lib;wsock32.lib;wininet.lib;winmm.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;DINRUSVIZ_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Create</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+      <AdditionalDependencies>wxbase28u.lib;wxmsw28u_core.lib;wxmsw28u_adv.lib;wxmsw28u_gl.lib;wxmsw28u_html.lib;wxmsw28u_media.lib;wxmsw28u_dbgrid.lib;wxmsw28u_qa.lib;wxmsw28u_richtext.lib;wxmsw28u_xrc.lib;wxbase28u_net.lib;wxbase28u_xml.lib;wxmsw28u_aui.lib;wxpng.lib;wxregexu.lib;wxtiff.lib;wxjpeg.lib;wxzlib.lib;wxexpat.lib;kernel32.lib;user32.lib;gdi32.lib;comdlg32.lib;winspool.lib;shell32.lib;shlwapi.lib;ole32.lib;oleaut32.lib;uuid.lib;advapi32.lib;version.lib;comctl32.lib;rpcrt4.lib;wsock32.lib;wininet.lib;winmm.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalOptions>/NODEFAULTLIB %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;DINRUSVIZ_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;DINRUSVIZ_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="src\common.h" />
+    <ClInclude Include="src\framework.h" />
+    <ClInclude Include="src\local_events.h" />
+    <ClInclude Include="src\manager.h" />
+    <ClInclude Include="src\pch.h" />
+    <ClInclude Include="src\targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\accel.cpp" />
+    <ClCompile Include="src\activateevent.cpp" />
+    <ClCompile Include="src\app.cpp" />
+    <ClCompile Include="src\artprovider.cpp" />
+    <ClCompile Include="src\bitmap.cpp" />
+    <ClCompile Include="src\bitmapbutton.cpp" />
+    <ClCompile Include="src\boxsizer.cpp" />
+    <ClCompile Include="src\brush.cpp" />
+    <ClCompile Include="src\button.cpp" />
+    <ClCompile Include="src\calendarctrl.cpp" />
+    <ClCompile Include="src\caret.cpp" />
+    <ClCompile Include="src\checkbox.cpp" />
+    <ClCompile Include="src\childfocusevent.cpp" />
+    <ClCompile Include="src\choice.cpp" />
+    <ClCompile Include="src\choicedialog.cpp" />
+    <ClCompile Include="src\clientdata.cpp" />
+    <ClCompile Include="src\clipboard.cpp" />
+    <ClCompile Include="src\closeevent.cpp" />
+    <ClCompile Include="src\colour.cpp" />
+    <ClCompile Include="src\colourdialog.cpp" />
+    <ClCompile Include="src\combobox.cpp" />
+    <ClCompile Include="src\commandevent.cpp" />
+    <ClCompile Include="src\config.cpp" />
+    <ClCompile Include="src\contextmenuevent.cpp" />
+    <ClCompile Include="src\control.cpp" />
+    <ClCompile Include="src\cursor.cpp" />
+    <ClCompile Include="src\dataformat.cpp" />
+    <ClCompile Include="src\dataobject.cpp" />
+    <ClCompile Include="src\dc.cpp" />
+    <ClCompile Include="src\dialog.cpp" />
+    <ClCompile Include="src\dirdialog.cpp" />
+    <ClCompile Include="src\display.cpp" />
+    <ClCompile Include="src\displaychangedevent.cpp" />
+    <ClCompile Include="src\dllmain.cpp" />
+    <ClCompile Include="src\dnd.cpp" />
+    <ClCompile Include="src\document.cpp" />
+    <ClCompile Include="src\eraseevent.cpp" />
+    <ClCompile Include="src\event.cpp" />
+    <ClCompile Include="src\evthandler.cpp" />
+    <ClCompile Include="src\filedialog.cpp" />
+    <ClCompile Include="src\findreplacedialog.cpp" />
+    <ClCompile Include="src\flexgridsizer.cpp" />
+    <ClCompile Include="src\focusevent.cpp" />
+    <ClCompile Include="src\font.cpp" />
+    <ClCompile Include="src\fontdialog.cpp" />
+    <ClCompile Include="src\fontmisc.cpp" />
+    <ClCompile Include="src\frame.cpp" />
+    <ClCompile Include="src\gauge.cpp" />
+    <ClCompile Include="src\gdicmn.cpp" />
+    <ClCompile Include="src\gdiobject.cpp" />
+    <ClCompile Include="src\global.cpp" />
+    <ClCompile Include="src\grid.cpp" />
+    <ClCompile Include="src\gridbagsizer.cpp" />
+    <ClCompile Include="src\gridctrl.cpp" />
+    <ClCompile Include="src\gridsizer.cpp" />
+    <ClCompile Include="src\helpevent.cpp" />
+    <ClCompile Include="src\html.cpp" />
+    <ClCompile Include="src\htmlhelpctrl.cpp" />
+    <ClCompile Include="src\htmllbox.cpp" />
+    <ClCompile Include="src\icon.cpp" />
+    <ClCompile Include="src\iconizeevent.cpp" />
+    <ClCompile Include="src\idleevent.cpp" />
+    <ClCompile Include="src\image.cpp" />
+    <ClCompile Include="src\imagelist.cpp" />
+    <ClCompile Include="src\imghandler.cpp" />
+    <ClCompile Include="src\initdialogevent.cpp" />
+    <ClCompile Include="src\keyevent.cpp" />
+    <ClCompile Include="src\laywin.cpp" />
+    <ClCompile Include="src\listbook.cpp" />
+    <ClCompile Include="src\listbox.cpp" />
+    <ClCompile Include="src\listctrl.cpp" />
+    <ClCompile Include="src\locale.cpp" />
+    <ClCompile Include="src\log.cpp" />
+    <ClCompile Include="src\manager.cpp" />
+    <ClCompile Include="src\maximizeevent.cpp" />
+    <ClCompile Include="src\mdi.cpp" />
+    <ClCompile Include="src\memorydc.cpp" />
+    <ClCompile Include="src\menu.cpp" />
+    <ClCompile Include="src\menubar.cpp" />
+    <ClCompile Include="src\menuitem.cpp" />
+    <ClCompile Include="src\messagedialog.cpp" />
+    <ClCompile Include="src\miniframe.cpp" />
+    <ClCompile Include="src\mousecapturechangedevent.cpp" />
+    <ClCompile Include="src\mouseevent.cpp" />
+    <ClCompile Include="src\moveevent.cpp" />
+    <ClCompile Include="src\navigationkeyevent.cpp" />
+    <ClCompile Include="src\ncpaintevent.cpp" />
+    <ClCompile Include="src\notebook.cpp" />
+    <ClCompile Include="src\notebooksizer.cpp" />
+    <ClCompile Include="src\notifyevent.cpp" />
+    <ClCompile Include="src\numdialog.cpp" />
+    <ClCompile Include="src\object.cpp" />
+    <ClCompile Include="src\paintevent.cpp" />
+    <ClCompile Include="src\palette.cpp" />
+    <ClCompile Include="src\palettechangedevent.cpp" />
+    <ClCompile Include="src\panel.cpp" />
+    <ClCompile Include="src\pch.cpp" />
+    <ClCompile Include="src\pen.cpp" />
+    <ClCompile Include="src\printdata.cpp" />
+    <ClCompile Include="src\printdialog.cpp" />
+    <ClCompile Include="src\printer.cpp" />
+    <ClCompile Include="src\printpreview.cpp" />
+    <ClCompile Include="src\progdlg.cpp" />
+    <ClCompile Include="src\querynewpaletteevent.cpp" />
+    <ClCompile Include="src\radiobox.cpp" />
+    <ClCompile Include="src\radiobutton.cpp" />
+    <ClCompile Include="src\region.cpp" />
+    <ClCompile Include="src\sashwindow.cpp" />
+    <ClCompile Include="src\scrollbar.cpp" />
+    <ClCompile Include="src\scrolledwindow.cpp" />
+    <ClCompile Include="src\setcursorevent.cpp" />
+    <ClCompile Include="src\showevent.cpp" />
+    <ClCompile Include="src\sizeevent.cpp" />
+    <ClCompile Include="src\sizer.cpp" />
+    <ClCompile Include="src\sizeritem.cpp" />
+    <ClCompile Include="src\slider.cpp" />
+    <ClCompile Include="src\sound.cpp" />
+    <ClCompile Include="src\spinbutton.cpp" />
+    <ClCompile Include="src\spinctrl.cpp" />
+    <ClCompile Include="src\splashscreen.cpp" />
+    <ClCompile Include="src\splitterwindow.cpp" />
+    <ClCompile Include="src\staticbitmap.cpp" />
+    <ClCompile Include="src\staticbox.cpp" />
+    <ClCompile Include="src\staticboxsizer.cpp" />
+    <ClCompile Include="src\staticline.cpp" />
+    <ClCompile Include="src\statictext.cpp" />
+    <ClCompile Include="src\statusbar.cpp" />
+    <ClCompile Include="src\syscolourchangedevent.cpp" />
+    <ClCompile Include="src\systemsettings.cpp" />
+    <ClCompile Include="src\tabctrl.cpp" />
+    <ClCompile Include="src\taskbaricon.cpp" />
+    <ClCompile Include="src\textctrl.cpp" />
+    <ClCompile Include="src\textdialog.cpp" />
+    <ClCompile Include="src\thread.cpp" />
+    <ClCompile Include="src\timer.cpp" />
+    <ClCompile Include="src\tipdialog.cpp" />
+    <ClCompile Include="src\tipwindow.cpp" />
+    <ClCompile Include="src\togglebutton.cpp" />
+    <ClCompile Include="src\toolbar.cpp" />
+    <ClCompile Include="src\tooltip.cpp" />
+    <ClCompile Include="src\treectrl.cpp" />
+    <ClCompile Include="src\updateuievent.cpp" />
+    <ClCompile Include="src\validator.cpp" />
+    <ClCompile Include="src\vlbox.cpp" />
+    <ClCompile Include="src\vscroll.cpp" />
+    <ClCompile Include="src\window.cpp" />
+    <ClCompile Include="src\windowcreateevent.cpp" />
+    <ClCompile Include="src\windowdestroyevent.cpp" />
+    <ClCompile Include="src\wizard.cpp" />
+    <ClCompile Include="src\wizardpagesimple.cpp" />
+    <ClCompile Include="src\wxaui.cpp" />
+    <ClCompile Include="src\wxdatetime.cpp" />
+    <ClCompile Include="src\wxplatform.cpp" />
+    <ClCompile Include="src\wxstring.cpp" />
+    <ClCompile Include="src\wxversion.cpp" />
+    <ClCompile Include="src\xmlresource.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\control.inc" />
+    <None Include="src\panel.inc" />
+    <None Include="src\window.inc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

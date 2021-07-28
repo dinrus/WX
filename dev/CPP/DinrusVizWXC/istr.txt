@@ -1,0 +1,78 @@
+libucrt.lib	Нет	Статически связывает UCRT в коде.	/MT	_MT
+libucrtd.lib	Нет	Отладочная версия UCRT для статического связывания. Нераспространяемый компонент.	/MTd	_DEBUG, _MT
+ucrt.lib	ucrtbase.dll	DLL-библиотека импорта для UCRT.	/MD	_MT, _DLL
+ucrtd.lib	ucrtbased.dll	DLL-библиотека импорта для отладочной версии UCRT. Нераспространяемый компонент.	/MDd	_DEBUG, _MT, _DLL
+
+libvcruntime.lib	Нет	Статически связанная с кодом.	/MT	_MT
+libvcruntimed.lib	Нет	Отладочная версия для статического связывания. Нераспространяемый компонент.	/MTd	_MT, _DEBUG
+vcruntime.lib	vcruntime<version>.dll	DLL-библиотека импорта для vcruntime.	/MD	_MT, _DLL
+vcruntimed.lib	vcruntime<version>d.dll	DLL-библиотека импорта для отладочной версии vcruntime. Нераспространяемый компонент.	/MDd
+
+libcmt.lib	Статически связывает в коде запуск CRT машинного кода.	/MT	_MT
+libcmtd.lib	Статически связывает отладочную версию запуска CRT в машинном коде. Нераспространяемый компонент.	/MTd	_DEBUG, _MT
+msvcrt.lib	Статическая библиотека для запуска CRT в машинном коде для использования с DLL, UCRT и vcruntime.	/MD	_MT, _DLL
+msvcrtd.lib	Статическая библиотека для запуска отладочной версии CRT в машинном коде для использования с DLL, UCRT и vcruntime. Нераспространяемый компонент.	/MDd	_DEBUG, _MT, _DLL
+msvcmrt.lib	Статическая библиотека для запуска CRT в смешанном машинном и управляемом коде для использования с DLL, UCRT и vcruntime.	/clr	
+msvcmrtd.lib	Статическая библиотека для запуска отладочной версии CRT в смешанном машинном и управляемом коде для использования с DLL, UCRT и vcruntime. Нераспространяемый компонент.	/clr	
+msvcurt.lib	Нерекомендуемая статическая библиотека для CRT с полностью управляемым кодом.	/clr:pure	
+msvcurtd.lib	Нерекомендуемая статическая библиотека для отладочной версии CRT с полностью управляемым кодом. Нераспространяемый компонент.	/clr:pure	
+
+libcpmt.lib	Многопоточная, статическая компоновка.	/MT	_MT
+msvcprt.lib	Многопоточная, динамическая компоновка (импорт библиотеки для msvcp<version>.dll )	/MD	_MT, _DLL
+libcpmtd.lib	Многопоточная, статическая компоновка.	/MTd	_DEBUG, _MT
+msvcprtd.lib	Многопоточная, динамическая компоновка (импорт библиотеки для msvcp<version>d.dll )	/MDd	_DEBUG, _MT, _DLL
+
+ucrt.lib vcruntime.lib msvcprt.lib libcmt.lib msvcmrt.lib	
+
+
+uuid.lib
+ucrt.lib
+vcruntime.lib
+msvcrt.lib
+
+msvcprt.lib
+libcmt.lib
+msvcmrt.lib	
+wxbase28u.lib
+wxmsw28u_core.lib
+wxmsw28u_adv.lib
+wxmsw28u_gl.lib
+wxmsw28u_html.lib
+wxmsw28u_media.lib
+wxmsw28u_dbgrid.lib
+wxmsw28u_qa.lib
+wxmsw28u_richtext.lib
+wxmsw28u_xrc.lib
+wxbase28u_net.lib
+wxbase28u_xml.lib
+wxmsw28u_aui.lib
+wxpng.lib
+wxregexu.lib
+wxtiff.lib
+wxjpeg.lib
+wxzlib.lib
+wxexpat.lib
+kernel32.lib
+user32.lib
+gdi32.lib
+comdlg32.lib
+winspool.lib
+shell32.lib
+shlwapi.lib
+ole32.lib
+oleaut32.lib
+uuid.lib
+advapi32.lib
+version.lib
+comctl32.lib
+rpcrt4.lib
+wsock32.lib
+wininet.lib
+winmm.lib
+odbc32.lib
+odbccp32.lib
+ucrt.lib
+vcruntime.lib
+msvcprt.lib
+libcmt.lib
+msvcmrt.lib
