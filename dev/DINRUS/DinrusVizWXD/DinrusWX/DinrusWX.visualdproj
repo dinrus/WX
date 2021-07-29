@@ -1,0 +1,655 @@
+<DProject>
+ <ProjectGuid>{07337FDC-F43A-47CB-8559-1EF001BF9FD2}</ProjectGuid>
+ <Config platform="Win32" name="Debug">
+  <obj>0</obj>
+  <link>0</link>
+  <lib>2</lib>
+  <subsystem>2</subsystem>
+  <multiobj>0</multiobj>
+  <singleFileCompilation>0</singleFileCompilation>
+  <oneobj>0</oneobj>
+  <mscoff>0</mscoff>
+  <trace>0</trace>
+  <quiet>0</quiet>
+  <verbose>0</verbose>
+  <vtls>0</vtls>
+  <vgc>0</vgc>
+  <symdebug>1</symdebug>
+  <symdebugref>0</symdebugref>
+  <optimize>1</optimize>
+  <cpu>0</cpu>
+  <isX86_64>0</isX86_64>
+  <isLinux>0</isLinux>
+  <isOSX>0</isOSX>
+  <isWindows>0</isWindows>
+  <isFreeBSD>0</isFreeBSD>
+  <isSolaris>0</isSolaris>
+  <scheduler>0</scheduler>
+  <useDeprecated>0</useDeprecated>
+  <errDeprecated>0</errDeprecated>
+  <useAssert>0</useAssert>
+  <useInvariants>0</useInvariants>
+  <useIn>0</useIn>
+  <useOut>0</useOut>
+  <useArrayBounds>0</useArrayBounds>
+  <boundscheck>0</boundscheck>
+  <useSwitchError>0</useSwitchError>
+  <useUnitTests>0</useUnitTests>
+  <useInline>0</useInline>
+  <release>0</release>
+  <preservePaths>0</preservePaths>
+  <warnings>0</warnings>
+  <infowarnings>0</infowarnings>
+  <checkProperty>0</checkProperty>
+  <genStackFrame>0</genStackFrame>
+  <pic>0</pic>
+  <cov>0</cov>
+  <nofloat>0</nofloat>
+  <ignoreUnsupportedPragmas>0</ignoreUnsupportedPragmas>
+  <allinst>0</allinst>
+  <stackStomp>0</stackStomp>
+  <betterC>0</betterC>
+  <dip25>0</dip25>
+  <dip1000>0</dip1000>
+  <dip1008>0</dip1008>
+  <transition_field>0</transition_field>
+  <revert_import>0</revert_import>
+  <preview_dtorfields>0</preview_dtorfields>
+  <transition_checkimports>0</transition_checkimports>
+  <transition_complex>0</transition_complex>
+  <preview_intpromote>0</preview_intpromote>
+  <preview_fixAliasThis>0</preview_fixAliasThis>
+  <preview_markdown>0</preview_markdown>
+  <transition_vmarkdown>0</transition_vmarkdown>
+  <compiler>0</compiler>
+  <otherDMD>1</otherDMD>
+  <cccmd>$(CC) -c</cccmd>
+  <ccTransOpt>1</ccTransOpt>
+  <addDepImp>0</addDepImp>
+  <program>$(DINRUS)\dmd.exe</program>
+  <imppath />
+  <fileImppath />
+  <outdir>$(PlatformName)\$(ConfigurationName)</outdir>
+  <objdir>$(OutDir)</objdir>
+  <objname />
+  <libname />
+  <doDocComments>0</doDocComments>
+  <docdir />
+  <docname />
+  <modules_ddoc />
+  <ddocfiles />
+  <doHdrGeneration>0</doHdrGeneration>
+  <hdrdir />
+  <hdrname />
+  <doXGeneration>1</doXGeneration>
+  <xfilename>$(IntDir)\$(TargetName).json</xfilename>
+  <debuglevel>0</debuglevel>
+  <debugids />
+  <versionlevel>0</versionlevel>
+  <versionids>Dinrus</versionids>
+  <dump_source>0</dump_source>
+  <mapverbosity>0</mapverbosity>
+  <createImplib>0</createImplib>
+  <debuglib>0</debuglib>
+  <defaultlibname />
+  <debuglibname />
+  <moduleDepsFile />
+  <run>0</run>
+  <runargs />
+  <runCv2pdb>1</runCv2pdb>
+  <pathCv2pdb>$(VisualDInstallDir)cv2pdb\cv2pdb.exe</pathCv2pdb>
+  <cv2pdbNoDemangle>0</cv2pdbNoDemangle>
+  <cv2pdbEnumType>0</cv2pdbEnumType>
+  <cv2pdbOptions />
+  <enableMixin>0</enableMixin>
+  <mixinPath>$(IntDir)\$(SafeProjectName).mixin</mixinPath>
+  <objfiles />
+  <linkswitches />
+  <libfiles> ..\..\..\..\..\lib\Dinrus.lib ..\..\DinrusVizWXC\BUILD\Debug\DinrusVizWXC_Omf.lib</libfiles>
+  <libpaths />
+  <deffile>base.def</deffile>
+  <resfile>base.res</resfile>
+  <exefile>$(OutDir)\DinrusVizWXD_d.dll</exefile>
+  <pdbfile>$(IntDir)\$(SafeProjectName).pdb</pdbfile>
+  <impfile>$(IntDir)\$(SafeProjectName).lib</impfile>
+  <mapfile>$(IntDir)\$(SafeProjectName).map</mapfile>
+  <useStdLibPath>1</useStdLibPath>
+  <cRuntime>2</cRuntime>
+  <privatePhobos>0</privatePhobos>
+  <additionalOptions />
+  <preBuildCommand>dinrus</preBuildCommand>
+  <postBuildCommand>$(DINRUS)\implib.exe /system /p:256 $(OutDir)\\DinrusVizWXD_dbg.lib $(OutDir)\DinrusVizWXD_d.dll
+copy $(OutDir)\DinrusVizWXD_d.dll  $(OutDir)\..\..\..\TestVizWXD\Win32\Debug</postBuildCommand>
+  <filesToClean>*.obj;*.cmd;*.build;*.json;*.dep;*.tlog</filesToClean>
+ </Config>
+ <Config platform="Win32" name="Release">
+  <obj>0</obj>
+  <link>0</link>
+  <lib>2</lib>
+  <subsystem>2</subsystem>
+  <multiobj>0</multiobj>
+  <singleFileCompilation>0</singleFileCompilation>
+  <oneobj>0</oneobj>
+  <mscoff>0</mscoff>
+  <trace>0</trace>
+  <quiet>0</quiet>
+  <verbose>0</verbose>
+  <vtls>0</vtls>
+  <vgc>0</vgc>
+  <symdebug>0</symdebug>
+  <symdebugref>1</symdebugref>
+  <optimize>1</optimize>
+  <cpu>0</cpu>
+  <isX86_64>0</isX86_64>
+  <isLinux>0</isLinux>
+  <isOSX>0</isOSX>
+  <isWindows>0</isWindows>
+  <isFreeBSD>0</isFreeBSD>
+  <isSolaris>0</isSolaris>
+  <scheduler>0</scheduler>
+  <useDeprecated>0</useDeprecated>
+  <errDeprecated>0</errDeprecated>
+  <useAssert>0</useAssert>
+  <useInvariants>0</useInvariants>
+  <useIn>0</useIn>
+  <useOut>0</useOut>
+  <useArrayBounds>0</useArrayBounds>
+  <boundscheck>0</boundscheck>
+  <useSwitchError>0</useSwitchError>
+  <useUnitTests>0</useUnitTests>
+  <useInline>1</useInline>
+  <release>1</release>
+  <preservePaths>0</preservePaths>
+  <warnings>0</warnings>
+  <infowarnings>0</infowarnings>
+  <checkProperty>0</checkProperty>
+  <genStackFrame>0</genStackFrame>
+  <pic>0</pic>
+  <cov>0</cov>
+  <nofloat>0</nofloat>
+  <ignoreUnsupportedPragmas>0</ignoreUnsupportedPragmas>
+  <allinst>0</allinst>
+  <stackStomp>0</stackStomp>
+  <betterC>0</betterC>
+  <dip25>0</dip25>
+  <dip1000>0</dip1000>
+  <dip1008>0</dip1008>
+  <transition_field>0</transition_field>
+  <revert_import>0</revert_import>
+  <preview_dtorfields>0</preview_dtorfields>
+  <transition_checkimports>0</transition_checkimports>
+  <transition_complex>0</transition_complex>
+  <preview_intpromote>0</preview_intpromote>
+  <preview_fixAliasThis>0</preview_fixAliasThis>
+  <preview_markdown>0</preview_markdown>
+  <transition_vmarkdown>0</transition_vmarkdown>
+  <compiler>0</compiler>
+  <otherDMD>1</otherDMD>
+  <cccmd>$(CC) -c</cccmd>
+  <ccTransOpt>1</ccTransOpt>
+  <addDepImp>0</addDepImp>
+  <program>$(DINRUS)\dmd.exe</program>
+  <imppath />
+  <fileImppath />
+  <outdir>$(PlatformName)\$(ConfigurationName)</outdir>
+  <objdir>$(OutDir)</objdir>
+  <objname />
+  <libname />
+  <doDocComments>0</doDocComments>
+  <docdir />
+  <docname />
+  <modules_ddoc />
+  <ddocfiles />
+  <doHdrGeneration>0</doHdrGeneration>
+  <hdrdir />
+  <hdrname />
+  <doXGeneration>1</doXGeneration>
+  <xfilename>$(IntDir)\$(TargetName).json</xfilename>
+  <debuglevel>0</debuglevel>
+  <debugids />
+  <versionlevel>0</versionlevel>
+  <versionids>Rulada Tango</versionids>
+  <dump_source>0</dump_source>
+  <mapverbosity>0</mapverbosity>
+  <createImplib>0</createImplib>
+  <debuglib>0</debuglib>
+  <defaultlibname />
+  <debuglibname />
+  <moduleDepsFile />
+  <run>0</run>
+  <runargs />
+  <runCv2pdb>0</runCv2pdb>
+  <pathCv2pdb>$(VisualDInstallDir)cv2pdb\cv2pdb.exe</pathCv2pdb>
+  <cv2pdbNoDemangle>0</cv2pdbNoDemangle>
+  <cv2pdbEnumType>0</cv2pdbEnumType>
+  <cv2pdbOptions />
+  <enableMixin>0</enableMixin>
+  <mixinPath>$(IntDir)\$(SafeProjectName).mixin</mixinPath>
+  <objfiles />
+  <linkswitches />
+  <libfiles>..\..\DinrusVizWXC\Release\DinrusWXC.lib ..\..\..\..\..\lib\rulada_eng\rulada.lib ..\..\..\..\..\lib\rulada_eng\tango.lib</libfiles>
+  <libpaths />
+  <deffile>base.def</deffile>
+  <resfile>base.res</resfile>
+  <exefile>$(OutDir)\DinrusVizWXD.dll</exefile>
+  <pdbfile>$(IntDir)\$(SafeProjectName).pdb</pdbfile>
+  <impfile>$(IntDir)\$(SafeProjectName).lib</impfile>
+  <mapfile>$(IntDir)\$(SafeProjectName).map</mapfile>
+  <useStdLibPath>0</useStdLibPath>
+  <cRuntime>2</cRuntime>
+  <privatePhobos>0</privatePhobos>
+  <additionalOptions />
+  <preBuildCommand>rulada</preBuildCommand>
+  <postBuildCommand>$(DINRUS)\implib.exe /system /p:256 $(OutDir)\\DinrusVizWXD.lib $(OutDir)\DinrusVizWXD.dll</postBuildCommand>
+  <filesToClean>*.obj;*.cmd;*.build;*.json;*.dep;*.tlog</filesToClean>
+ </Config>
+ <Config platform="x64" name="Debug">
+  <obj>0</obj>
+  <link>0</link>
+  <lib>2</lib>
+  <subsystem>2</subsystem>
+  <multiobj>0</multiobj>
+  <singleFileCompilation>0</singleFileCompilation>
+  <oneobj>0</oneobj>
+  <mscoff>0</mscoff>
+  <trace>0</trace>
+  <quiet>0</quiet>
+  <verbose>0</verbose>
+  <vtls>0</vtls>
+  <vgc>0</vgc>
+  <symdebug>1</symdebug>
+  <symdebugref>0</symdebugref>
+  <optimize>1</optimize>
+  <cpu>0</cpu>
+  <isX86_64>1</isX86_64>
+  <isLinux>0</isLinux>
+  <isOSX>0</isOSX>
+  <isWindows>0</isWindows>
+  <isFreeBSD>0</isFreeBSD>
+  <isSolaris>0</isSolaris>
+  <scheduler>0</scheduler>
+  <useDeprecated>0</useDeprecated>
+  <errDeprecated>0</errDeprecated>
+  <useAssert>0</useAssert>
+  <useInvariants>0</useInvariants>
+  <useIn>0</useIn>
+  <useOut>0</useOut>
+  <useArrayBounds>0</useArrayBounds>
+  <boundscheck>0</boundscheck>
+  <useSwitchError>0</useSwitchError>
+  <useUnitTests>0</useUnitTests>
+  <useInline>0</useInline>
+  <release>0</release>
+  <preservePaths>0</preservePaths>
+  <warnings>0</warnings>
+  <infowarnings>0</infowarnings>
+  <checkProperty>0</checkProperty>
+  <genStackFrame>0</genStackFrame>
+  <pic>0</pic>
+  <cov>0</cov>
+  <nofloat>0</nofloat>
+  <ignoreUnsupportedPragmas>0</ignoreUnsupportedPragmas>
+  <allinst>0</allinst>
+  <stackStomp>0</stackStomp>
+  <betterC>0</betterC>
+  <dip25>0</dip25>
+  <dip1000>0</dip1000>
+  <dip1008>0</dip1008>
+  <transition_field>0</transition_field>
+  <revert_import>0</revert_import>
+  <preview_dtorfields>0</preview_dtorfields>
+  <transition_checkimports>0</transition_checkimports>
+  <transition_complex>0</transition_complex>
+  <preview_intpromote>0</preview_intpromote>
+  <preview_fixAliasThis>0</preview_fixAliasThis>
+  <preview_markdown>0</preview_markdown>
+  <transition_vmarkdown>0</transition_vmarkdown>
+  <compiler>0</compiler>
+  <otherDMD>0</otherDMD>
+  <cccmd>$(CC) -c</cccmd>
+  <ccTransOpt>1</ccTransOpt>
+  <addDepImp>0</addDepImp>
+  <program>$(DMDInstallDir)windows\bin\dmd.exe</program>
+  <imppath />
+  <fileImppath />
+  <outdir>$(PlatformName)\$(ConfigurationName)</outdir>
+  <objdir>$(OutDir)</objdir>
+  <objname />
+  <libname />
+  <doDocComments>0</doDocComments>
+  <docdir />
+  <docname />
+  <modules_ddoc />
+  <ddocfiles />
+  <doHdrGeneration>0</doHdrGeneration>
+  <hdrdir />
+  <hdrname />
+  <doXGeneration>1</doXGeneration>
+  <xfilename>$(IntDir)\$(TargetName).json</xfilename>
+  <debuglevel>0</debuglevel>
+  <debugids />
+  <versionlevel>0</versionlevel>
+  <versionids />
+  <dump_source>0</dump_source>
+  <mapverbosity>0</mapverbosity>
+  <createImplib>0</createImplib>
+  <debuglib>0</debuglib>
+  <defaultlibname />
+  <debuglibname />
+  <moduleDepsFile />
+  <run>0</run>
+  <runargs />
+  <runCv2pdb>1</runCv2pdb>
+  <pathCv2pdb>$(VisualDInstallDir)cv2pdb\cv2pdb.exe</pathCv2pdb>
+  <cv2pdbNoDemangle>0</cv2pdbNoDemangle>
+  <cv2pdbEnumType>0</cv2pdbEnumType>
+  <cv2pdbOptions />
+  <enableMixin>0</enableMixin>
+  <mixinPath>$(IntDir)\$(SafeProjectName).mixin</mixinPath>
+  <objfiles />
+  <linkswitches />
+  <libfiles>..\..\DinrusVizWXC\Release\DinrusWXC.lib</libfiles>
+  <libpaths />
+  <deffile />
+  <resfile />
+  <exefile>$(OutDir)\$(ProjectName).lib</exefile>
+  <pdbfile>$(IntDir)\$(SafeProjectName).pdb</pdbfile>
+  <impfile>$(IntDir)\$(SafeProjectName).lib</impfile>
+  <mapfile>$(IntDir)\$(SafeProjectName).map</mapfile>
+  <useStdLibPath>1</useStdLibPath>
+  <cRuntime>2</cRuntime>
+  <privatePhobos>0</privatePhobos>
+  <additionalOptions />
+  <preBuildCommand />
+  <postBuildCommand />
+  <filesToClean>*.obj;*.cmd;*.build;*.json;*.dep;*.tlog</filesToClean>
+ </Config>
+ <Config platform="x64" name="Release">
+  <obj>0</obj>
+  <link>0</link>
+  <lib>1</lib>
+  <subsystem>1</subsystem>
+  <multiobj>0</multiobj>
+  <singleFileCompilation>0</singleFileCompilation>
+  <oneobj>0</oneobj>
+  <mscoff>0</mscoff>
+  <trace>0</trace>
+  <quiet>0</quiet>
+  <verbose>0</verbose>
+  <vtls>0</vtls>
+  <vgc>0</vgc>
+  <symdebug>0</symdebug>
+  <symdebugref>0</symdebugref>
+  <optimize>1</optimize>
+  <cpu>0</cpu>
+  <isX86_64>1</isX86_64>
+  <isLinux>0</isLinux>
+  <isOSX>0</isOSX>
+  <isWindows>0</isWindows>
+  <isFreeBSD>0</isFreeBSD>
+  <isSolaris>0</isSolaris>
+  <scheduler>0</scheduler>
+  <useDeprecated>0</useDeprecated>
+  <errDeprecated>0</errDeprecated>
+  <useAssert>0</useAssert>
+  <useInvariants>0</useInvariants>
+  <useIn>0</useIn>
+  <useOut>0</useOut>
+  <useArrayBounds>0</useArrayBounds>
+  <boundscheck>0</boundscheck>
+  <useSwitchError>0</useSwitchError>
+  <useUnitTests>0</useUnitTests>
+  <useInline>1</useInline>
+  <release>1</release>
+  <preservePaths>0</preservePaths>
+  <warnings>0</warnings>
+  <infowarnings>0</infowarnings>
+  <checkProperty>0</checkProperty>
+  <genStackFrame>0</genStackFrame>
+  <pic>0</pic>
+  <cov>0</cov>
+  <nofloat>0</nofloat>
+  <ignoreUnsupportedPragmas>0</ignoreUnsupportedPragmas>
+  <allinst>0</allinst>
+  <stackStomp>0</stackStomp>
+  <betterC>0</betterC>
+  <dip25>0</dip25>
+  <dip1000>0</dip1000>
+  <dip1008>0</dip1008>
+  <transition_field>0</transition_field>
+  <revert_import>0</revert_import>
+  <preview_dtorfields>0</preview_dtorfields>
+  <transition_checkimports>0</transition_checkimports>
+  <transition_complex>0</transition_complex>
+  <preview_intpromote>0</preview_intpromote>
+  <preview_fixAliasThis>0</preview_fixAliasThis>
+  <preview_markdown>0</preview_markdown>
+  <transition_vmarkdown>0</transition_vmarkdown>
+  <compiler>0</compiler>
+  <otherDMD>0</otherDMD>
+  <cccmd>$(CC) -c</cccmd>
+  <ccTransOpt>1</ccTransOpt>
+  <addDepImp>0</addDepImp>
+  <program>$(DMDInstallDir)windows\bin\dmd.exe</program>
+  <imppath />
+  <fileImppath />
+  <outdir>$(PlatformName)\$(ConfigurationName)</outdir>
+  <objdir>$(OutDir)</objdir>
+  <objname />
+  <libname />
+  <doDocComments>0</doDocComments>
+  <docdir />
+  <docname />
+  <modules_ddoc />
+  <ddocfiles />
+  <doHdrGeneration>0</doHdrGeneration>
+  <hdrdir />
+  <hdrname />
+  <doXGeneration>1</doXGeneration>
+  <xfilename>$(IntDir)\$(TargetName).json</xfilename>
+  <debuglevel>0</debuglevel>
+  <debugids />
+  <versionlevel>0</versionlevel>
+  <versionids />
+  <dump_source>0</dump_source>
+  <mapverbosity>0</mapverbosity>
+  <createImplib>0</createImplib>
+  <debuglib>0</debuglib>
+  <defaultlibname />
+  <debuglibname />
+  <moduleDepsFile />
+  <run>0</run>
+  <runargs />
+  <runCv2pdb>0</runCv2pdb>
+  <pathCv2pdb>$(VisualDInstallDir)cv2pdb\cv2pdb.exe</pathCv2pdb>
+  <cv2pdbNoDemangle>0</cv2pdbNoDemangle>
+  <cv2pdbEnumType>0</cv2pdbEnumType>
+  <cv2pdbOptions />
+  <enableMixin>0</enableMixin>
+  <mixinPath>$(IntDir)\$(SafeProjectName).mixin</mixinPath>
+  <objfiles />
+  <linkswitches />
+  <libfiles>..\..\DinrusVizWXC\Release\DinrusWXC.lib</libfiles>
+  <libpaths />
+  <deffile />
+  <resfile />
+  <exefile>$(OutDir)\$(ProjectName).lib</exefile>
+  <pdbfile>$(IntDir)\$(SafeProjectName).pdb</pdbfile>
+  <impfile>$(IntDir)\$(SafeProjectName).lib</impfile>
+  <mapfile>$(IntDir)\$(SafeProjectName).map</mapfile>
+  <useStdLibPath>1</useStdLibPath>
+  <cRuntime>2</cRuntime>
+  <privatePhobos>0</privatePhobos>
+  <additionalOptions />
+  <preBuildCommand />
+  <postBuildCommand />
+  <filesToClean>*.obj;*.cmd;*.build;*.json;*.dep;*.tlog</filesToClean>
+ </Config>
+ <Folder name="DinrusVizWXDDLL">
+  <Folder name="aui">
+   <File path="wx\aui\aui.d" />
+   <File path="wx\aui\DockArt.d" />
+   <File path="wx\aui\FrameManager.d" />
+  </Folder>
+  <File path="wx\Accelerator.d" />
+  <File path="wx\ActivateEvent.d" />
+  <File path="wx\App.d" />
+  <File path="wx\ArrayInt.d" />
+  <File path="wx\ArrayString.d" />
+  <File path="wx\ArtProvider.d" />
+  <File path="wx\Bitmap.d" />
+  <File path="wx\BitmapButton.d" />
+  <File path="wx\BoxSizer.d" />
+  <File path="wx\Brush.d" />
+  <File path="wx\Button.d" />
+  <File path="wx\CalendarCtrl.d" />
+  <File path="wx\Caret.d" />
+  <File path="wx\CheckBox.d" />
+  <File path="wx\ChildFocusEvent.d" />
+  <File path="wx\Choice.d" />
+  <File path="wx\ChoiceDialog.d" />
+  <File path="wx\ClientData.d" />
+  <File path="wx\Clipboard.d" />
+  <File path="wx\CloseEvent.d" />
+  <File path="wx\Colour.d" />
+  <File path="wx\ColourDialog.d" />
+  <File path="wx\ComboBox.d" />
+  <File path="wx\CommandEvent.d" />
+  <File path="wx\common.d" />
+  <File path="wx\Config.d" />
+  <File path="wx\ContextMenuEvent.d" />
+  <File path="wx\Control.d" />
+  <File path="wx\Cursor.d" />
+  <File path="wx\DataFormat.d" />
+  <File path="wx\DataObject.d" />
+  <File path="wx\DateTime.d" />
+  <File path="wx\DC.d" />
+  <File path="wx\Defs.d" />
+  <File path="wx\Dialog.d" />
+  <File path="wx\DirDialog.d" />
+  <File path="wx\Display.d" />
+  <File path="wx\DisplayChangedEvent.d" />
+  <File path="wx\dll.d" />
+  <File path="wx\DND.d" />
+  <File path="wx\Document.d" />
+  <File path="wx\EraseEvent.d" />
+  <File path="wx\Event.d" />
+  <File path="wx\EvtHandler.d" />
+  <File path="wx\FileDialog.d" />
+  <File path="wx\FindReplaceDialog.d" />
+  <File path="wx\FlexGridSizer.d" />
+  <File path="wx\FocusEvent.d" />
+  <File path="wx\Font.d" />
+  <File path="wx\FontDialog.d" />
+  <File path="wx\FontMisc.d" />
+  <File path="wx\Frame.d" />
+  <File path="wx\Gauge.d" />
+  <File path="wx\GdiCommon.d" />
+  <File path="wx\GDIObject.d" />
+  <File path="wx\Grid.d" />
+  <File path="wx\GridBagSizer.d" />
+  <File path="wx\GridCtrl.d" />
+  <File path="wx\GridSizer.d" />
+  <File path="wx\HelpEvent.d" />
+  <File path="wx\HTML.d" />
+  <File path="wx\HtmlHelpController.d" />
+  <File path="wx\HtmlListBox.d" />
+  <File path="wx\Icon.d" />
+  <File path="wx\IconizeEvent.d" />
+  <File path="wx\IControlWithItems.d" />
+  <File path="wx\IdleEvent.d" />
+  <File path="wx\Image.d" />
+  <File path="wx\ImageHandlers.d" />
+  <File path="wx\ImageList.d" />
+  <File path="wx\InitDialogEvent.d" />
+  <File path="wx\KeyEvent.d" />
+  <File path="wx\LayoutWin.d" />
+  <File path="wx\Listbook.d" />
+  <File path="wx\ListBox.d" />
+  <File path="wx\ListCtrl.d" />
+  <File path="wx\Locale.d" />
+  <File path="wx\Log.d" />
+  <File path="wx\MaximizeEvent.d" />
+  <File path="wx\MDI.d" />
+  <File path="wx\MemoryDC.d" />
+  <File path="wx\Menu.d" />
+  <File path="wx\MenuBar.d" />
+  <File path="wx\MenuItem.d" />
+  <File path="wx\MessageDialog.d" />
+  <File path="wx\MiniFrame.d" />
+  <File path="wx\MouseCaptureChangedEvent.d" />
+  <File path="wx\MouseEvent.d" />
+  <File path="wx\MoveEvent.d" />
+  <File path="wx\NavigationKeyEvent.d" />
+  <File path="wx\NcPaintEvent.d" />
+  <File path="wx\Notebook.d" />
+  <File path="wx\NotebookSizer.d" />
+  <File path="wx\NotifyEvent.d" />
+  <File path="wx\NumberDialog.d" />
+  <File path="wx\PaintEvent.d" />
+  <File path="wx\Palette.d" />
+  <File path="wx\PaletteChangedEvent.d" />
+  <File path="wx\Panel.d" />
+  <File path="wx\Pen.d" />
+  <File path="wx\PrintData.d" />
+  <File path="wx\PrintDialog.d" />
+  <File path="wx\Printer.d" />
+  <File path="wx\PrintPreview.d" />
+  <File path="wx\ProgressDialog.d" />
+  <File path="wx\QueryNewPaletteEvent.d" />
+  <File path="wx\RadioBox.d" />
+  <File path="wx\RadioButton.d" />
+  <File path="wx\Region.d" />
+  <File path="wx\SashWindow.d" />
+  <File path="wx\ScrollBar.d" />
+  <File path="wx\ScrolledWindow.d" />
+  <File path="wx\SetCursorEvent.d" />
+  <File path="wx\ShowEvent.d" />
+  <File path="wx\SizeEvent.d" />
+  <File path="wx\Sizer.d" />
+  <File path="wx\SizerItem.d" />
+  <File path="wx\Slider.d" />
+  <File path="wx\Sound.d" />
+  <File path="wx\SpinButton.d" />
+  <File path="wx\SpinCtrl.d" />
+  <File path="wx\SplashScreen.d" />
+  <File path="wx\SplitterWindow.d" />
+  <File path="wx\StaticBitmap.d" />
+  <File path="wx\StaticBox.d" />
+  <File path="wx\StaticBoxSizer.d" />
+  <File path="wx\StaticLine.d" />
+  <File path="wx\StaticText.d" />
+  <File path="wx\StatusBar.d" />
+  <File path="wx\StyledTextCtrl.d" />
+  <File path="wx\SysColourChangedEvent.d" />
+  <File path="wx\SystemSettings.d" />
+  <File path="wx\TabCtrl.d" />
+  <File path="wx\TaskBarIcon.d" />
+  <File path="wx\TextCtrl.d" />
+  <File path="wx\TextDialog.d" />
+  <File path="wx\Thread.d" />
+  <File path="wx\Timer.d" />
+  <File path="wx\TipDialog.d" />
+  <File path="wx\TipWindow.d" />
+  <File path="wx\ToggleButton.d" />
+  <File path="wx\ToolBar.d" />
+  <File path="wx\ToolTip.d" />
+  <File path="wx\TreeCtrl.d" />
+  <File path="wx\UpdateUIEvent.d" />
+  <File path="wx\Utils.d" />
+  <File path="wx\Validator.d" />
+  <File path="wx\VideoMode.d" />
+  <File path="wx\VLBox.d" />
+  <File path="wx\VScroll.d" />
+  <File path="wx\Window.d" />
+  <File path="wx\WindowCreateEvent.d" />
+  <File path="wx\WindowDestroyEvent.d" />
+  <File path="wx\Wizard.d" />
+  <File path="wx\WizardPage.d" />
+  <File path="wx\WizardPageSimple.d" />
+  <File path="wx\wx.d" />
+  <File path="wx\wxPlatform.d" />
+  <File path="wx\wxVersion.d" />
+  <File path="wx\XmlResource.d" />
+ </Folder>
+</DProject>
